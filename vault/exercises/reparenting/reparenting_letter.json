@@ -1,0 +1,82 @@
+{
+  "number": "EX",
+  "tag": "30 min · write as the parent you needed",
+  "title": "The Reparenting Letter",
+  "intro": "At some point you have to stop waiting for the parent you needed to appear, and become that parent for yourself. This exercise is the voice of that parent — written by you, to you, from a place of warmth and protection that you may have never received from the outside. Done honestly, it is one of the most useful pieces of writing you will ever do.",
+  "quote": {
+    "text": "The parent you needed is not coming. The good news is, you can learn their voice. And you will hear it in your own head the rest of your life if you do.",
+    "cite": ""
+  },
+  "deliverable": "A one-page letter from the good-enough parent you never had to you-now, written in your own hand, in their voice. Stored somewhere you can read it when the old voices get loud.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "Name Who You Needed",
+      "sub": "10 min · construct the parent you needed, specifically",
+      "prompt": [
+        "Before you write the letter, you need to know who is writing it. Spend ten minutes constructing the good-enough parent you needed.",
+        "Describe: (1) what their voice sounds like — warm? quiet? firm? (2) what they would have been good at that your actual caregiver wasn't — noticing? listening? showing up? protecting? (3) what they would have refused to do that your actual caregiver did — criticizing? dismissing? disappearing? (4) what they would have said often that you needed to hear and didn't.",
+        "This is not a fantasy parent. This is a good-enough parent — imperfect, human, but present and attuned. The specificity of the construction is what makes the letter believable later."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Borrow if you need to",
+          "body": "If you cannot imagine this parent from scratch, borrow pieces from people who have treated you well — a grandparent, a teacher, a friend's parent, a mentor. Stitch together the voice from real fragments. Real fragments ground the exercise."
+        },
+        {
+          "num": "02",
+          "title": "Not too perfect",
+          "body": "A perfect parent is not believable and cannot parent you. A good-enough parent makes mistakes, gets things wrong, apologizes, and keeps showing up. That is the voice you are building. The imperfection is what makes the voice reach you."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "Write The Letter",
+      "sub": "15 min · from them, to you today",
+      "prompt": [
+        "Now write the letter. From the good-enough parent you just constructed, to you — not as a child, but as the adult you are today.",
+        "Include at least: (1) what they see in you that no one else is seeing right now; (2) something you are blaming yourself for that they want you to hear a different version of; (3) what they are proud of that you yourself have dismissed; (4) what they want you to stop doing, said without judgement but without softness; (5) a short sentence that they want you to carry into the week.",
+        "Second person throughout. Write it in a voice you would want a loved child to hear."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Let the voice be warm without being mushy",
+          "body": "Warmth is not the same as sentimentality. A good-enough parent is loving AND honest. They will name what they see clearly — including the hard stuff. If the letter feels like a greeting card, it is too soft. If it feels like a review, it is too hard. The target is a conversation with a loved child who is also an adult."
+        },
+        {
+          "num": "02",
+          "title": "The middle of the letter is where the work is",
+          "body": "Openings and closings are usually generic. The middle — where the voice is giving you specific feedback on specific things — is where the exercise earns its keep. Spend your minutes there."
+        },
+        {
+          "num": "03",
+          "title": "Write by hand if possible",
+          "body": "Handwriting slows you down enough that the voice has time to land. Typing is fine if handwriting is not available, but the signal-to-noise ratio is higher on paper."
+        }
+      ],
+      "watch_out": "Writing yourself a pep talk. A pep talk is what you produce when you skip the construction step and just write nice things to yourself. This letter should feel like someone who knows you is talking to you — not like you are cheerleading yourself. If the letter could have been written by anyone, the construction step wasn't thorough enough."
+    },
+    {
+      "id": "1.3",
+      "title": "Read It Aloud",
+      "sub": "5 min · in their voice, to you",
+      "prompt": [
+        "Read the letter aloud to yourself. Slowly. In the voice you constructed in 1.1 — not your normal speaking voice.",
+        "Notice which parts make you flinch, and which parts feel like they reach something inside you. The ones that reach are the ones to underline after."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Out loud matters",
+          "body": "Reading silently to yourself is not the same exercise. Something in the auditory channel is what lets the voice become part of you. Yes, it feels strange. The strangeness is not a sign that it is silly. It is a sign that it is new — and you are learning a voice your body has never heard."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Keep the letter somewhere you can read it when the old voices get loud — stressed mornings, after a hard meeting, Sunday night before a heavy week. Over time, reading this letter enough times means the voice becomes yours. That is the goal: internalizing a good-enough parent voice, permanently, so it is available from the inside whenever you need it."
+    }
+  ]
+}

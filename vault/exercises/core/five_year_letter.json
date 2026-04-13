@@ -1,0 +1,58 @@
+{
+  "number": "EX",
+  "tag": "30 min · a letter from the you five years out",
+  "title": "The Five-Year Letter",
+  "intro": "Future-you is not a fantasy. Future-you is a specific person, built by the choices you make in the next 1800 days. This exercise gives that person a voice and lets them talk to you — about what they wish you'd done sooner, what you should stop worrying about, and what mattered more than you thought.",
+  "quote": {
+    "text": "Most of what we will regret in five years, we can see from here if we sit still long enough.",
+    "cite": ""
+  },
+  "deliverable": "Two short letters: one from future-you to current-you, one from current-you back. Kept in the journal, re-read when decisions get noisy.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "The Letter From Future-You",
+      "sub": "20 min · write as the person you'll be in 5 years, looking back at today",
+      "prompt": [
+        "It is five years from today. Write a letter to yourself as you are right now. Not a fantasy version — a realistic, specific version of you that made the choices you would respect. What do they want you to hear?",
+        "Cover at least: (1) one thing you are worrying about now that didn't matter, (2) one thing you are NOT worrying about that should have been a bigger deal, (3) one decision you made in the next 12 months that compounded well, (4) one thing you wish you'd stopped sooner, (5) the sentence future-you most wants current-you to sit with."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Use second person throughout",
+          "body": "'You are spending too much energy on...' rather than 'I was spending.' The second person makes it feel like a letter, not a self-reflection. Letters land harder than reflections."
+        },
+        {
+          "num": "02",
+          "title": "Be specific to your actual life",
+          "body": "Generic advice from a generic future-self is worthless. Name the actual people, the actual projects, the actual worries currently eating your week. Future-you is specific or they're not speaking."
+        },
+        {
+          "num": "03",
+          "title": "Include one thing that's a little brutal",
+          "body": "Not cruel. But honest in a way that current-you would slightly resist hearing. The letters that change anything always include at least one sentence that makes you uncomfortable while writing it."
+        }
+      ],
+      "watch_out": "Writing the letter as aspirational fantasy (palaces, yachts, fame). The useful version is the one from a realistic, grounded future-you who made good ordinary decisions — not the fantasy version. The fantasy letter doesn't change behavior. The realistic one does."
+    },
+    {
+      "id": "1.2",
+      "title": "The Letter Back",
+      "sub": "10 min · respond, as you are now, to what future-you said",
+      "prompt": [
+        "Write a short letter back. What did you hear? What landed? What are you going to do differently this week because of what they said? One concrete action — no more, no less.",
+        "Close with: 'I will see you in five years. Here is what I promise to have done by then:' — and name one thing. One."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "One promise, not a list",
+          "body": "The value of the promise is in its singularity. A list of five dilutes each one. A single promise, made to a specific future-you, is the kind of commitment that actually holds."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Re-read both letters on the first of every month. Not to judge progress — just to let future-you stay present in the decisions of the coming week."
+    }
+  ]
+}

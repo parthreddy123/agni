@@ -1,0 +1,36 @@
+{
+  "morning": [
+    {
+      "key": "gratitude",
+      "label": "Three things I'm grateful for",
+      "hint": "Concrete. A moment, a person, a texture — not an abstraction.",
+      "count": 3
+    },
+    {
+      "key": "intentions",
+      "label": "What would make today great",
+      "hint": "Three things. Small enough to do, sharp enough to matter.",
+      "count": 3
+    },
+    {
+      "key": "affirmation",
+      "label": "Daily affirmation",
+      "hint": "One sentence. Written in the present tense. Should sting slightly if read on a coasting day.",
+      "count": 1
+    }
+  ],
+  "evening": [
+    {
+      "key": "amazing",
+      "label": "Three amazing things that happened today",
+      "hint": "Even the tiny ones. Especially the tiny ones.",
+      "count": 3
+    },
+    {
+      "key": "better",
+      "label": "How could I have made today better",
+      "hint": "Not self-punishment. Surgical. One gap, specific, closeable.",
+      "count": 1
+    }
+  ]
+}

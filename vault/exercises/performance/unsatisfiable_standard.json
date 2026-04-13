@@ -1,0 +1,82 @@
+{
+  "number": "02",
+  "tag": "Brady's Method · 45 minutes",
+  "title": "Define the Unsatisfiable Standard",
+  "intro": "Brady's opponent was always himself. No external validation could fully satisfy him, so the hunger was structurally permanent. This session builds an internal performance standard so high that you can never fully arrive — only ever get closer.",
+  "quote": {
+    "text": "It's always about what I can do better in the future. That journey is never-ending. In many ways I don't think I'll ever be satisfied.",
+    "cite": "— Tom Brady, The TB12 Method"
+  },
+  "deliverable": "A written 100% Version portrait in third person with a gap statement, and a Daily Closing Question — sharpened across five drafts, written on a card, placed somewhere you see it before sleep.",
+  "exercises": [
+    {
+      "id": "2.1",
+      "title": "The Coulda-Shoulda Audit",
+      "sub": "15 min · Surgical honesty, not self-punishment",
+      "prompt": [
+        "Think about your strongest six months of work — the work you're most proud of. Now ask Brady's question: where did you coulda-shoulda? Not self-punishment. Surgical truth. Where did you operate at 80% when 100% was available? What preparation did you skip? What insight did you leave half-formed? What relationship did you underinvest in?"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Be specific about the gap, not the outcome",
+          "body": "Don't write 'I could have been better in client meetings.' Write: 'In the [specific meeting], I hadn't read their annual report deeply enough, and my question landed shallow. I knew it before I asked it.' The specificity proves the gap is real and closeable — which is the whole point."
+        },
+        {
+          "num": "02",
+          "title": "The goal is proof, not guilt",
+          "body": "This exercise exists to prove to yourself that there is always a higher level, even after your best work. Brady used this not to feel bad but to feel oriented — toward a version of himself that was always just ahead. Read it that way."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "2.2",
+      "title": "Write the Portrait of the 100% Version",
+      "sub": "20 min · Your internal competitor — always just ahead",
+      "prompt": [
+        "Write a portrait of the version of you who operates at full capacity in your current chapter. Not a fantasy — a rigorous, specific picture. What does he/she know that you don't yet? How do they prepare differently? How do they show up in the room with decision-makers? How do they handle political friction? What is their relationship with their team? How do they use this time?"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Write in third person",
+          "body": "Writing 'he/she' instead of 'I' creates useful psychological distance — you're describing someone to aspire toward, not narrating what you already are. It makes the gap feel concrete rather than abstract."
+        },
+        {
+          "num": "02",
+          "title": "Make it context-specific, not generic",
+          "body": "Don't write 'he is well-prepared and respected.' Write the specific things: what reports he has read, what domain he knows cold, what happens when he speaks in the room. The specificity is what makes it motivating."
+        },
+        {
+          "num": "03",
+          "title": "End with the gap statement",
+          "body": "Close the portrait with: 'The distance between who I am today and this person is...' — finish it honestly. That gap is not a failure. It's your permanent source of forward motion."
+        }
+      ],
+      "watch_out": "Making the 100% version too comfortable or achievable. If you can imagine fully arriving within a year, you haven't gone far enough. This version should always be slightly beyond reach — that's the design."
+    },
+    {
+      "id": "2.3",
+      "title": "Write Your Daily Closing Question",
+      "sub": "10 min · The sentence you ask yourself every night",
+      "prompt": [
+        "Brady's question was: 'Could I have done more?' Write your version — the single question you ask yourself at the end of every working day. It should hold you to the standard without spiralling into anxiety. It should sting slightly when you can't answer yes. Write five versions and keep the one that feels most true and specific."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "React against these drafts",
+          "body": "Try these as starting points, then rewrite until one is yours: 'Did I make myself harder to replace today?' / 'Did I learn something that changes how I understand this work?' / 'Did I operate like a founder or an employee today?' / 'Did I earn the mandate today?'"
+        },
+        {
+          "num": "02",
+          "title": "Test it against a coasting day",
+          "body": "Imagine a day where you attended all the meetings, replied to all the emails, and produced nothing original. Ask your question about that day. If you can say yes to it easily on a coasting day, the question isn't sharp enough. Sharpen until coasting fails the test."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Write it on a physical card. Put it somewhere you see it before sleep — desk, nightstand, bathroom mirror. The ritual of asking it daily matters as much as the content of the question."
+    }
+  ]
+}

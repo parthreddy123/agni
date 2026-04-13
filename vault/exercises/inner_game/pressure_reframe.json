@@ -1,0 +1,67 @@
+{
+  "number": "EX",
+  "tag": "10 min · current pressure as privilege",
+  "title": "Pressure As Privilege",
+  "intro": "When you are under real pressure — a high-stakes project, a visible role, something you actually care about — your body produces a response that is easy to mistake for anxiety. It is not. It is the body getting ready. The problem is not the pressure. The problem is the story you tell yourself about the pressure. This exercise changes the story.",
+  "quote": {
+    "text": "The pressure you are feeling is the cost of being in a position where what you do matters. Most people will never earn the right to feel it. You did.",
+    "cite": ""
+  },
+  "deliverable": "A short written reframe that turns your current pressure from 'I have to' language into 'I get to' language — ready to read in the minutes before the pressure moment.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "Name The Pressure",
+      "sub": "3 min · what is weighing on you right now",
+      "prompt": [
+        "Name one thing that is currently pressurizing you. Be specific: the week you are walking into, the conversation you know is coming, the review, the launch, the thing you have been dreading. Not a vague feeling — a specific situation.",
+        "Then write one sentence about what you are afraid will happen: 'I am afraid that [specific outcome].'"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "If several things are pressurizing you, pick the heaviest",
+          "body": "The heaviest one is the one whose reframe will free up the most energy. The smaller ones usually lighten on their own once the heavy one is lighter."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "The Privilege Audit",
+      "sub": "5 min · list the earned conditions",
+      "prompt": [
+        "List three to five things about your current position that are the result of work you actually did — the things a past version of you wanted desperately and would have traded almost anything for. Not the outcomes. The conditions.",
+        "Examples: 'I am in a room where the decisions matter.' 'I am trusted with work that is genuinely hard.' 'I am at a table with people whose judgement I respect.' 'My mistakes now are mistakes with real weight — which means my wins are wins with real weight too.'",
+        "Each item should be something past-you genuinely wanted. The pressure you are feeling is happening inside a set of conditions you chose and earned."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Not gratitude — recognition",
+          "body": "This is not a gratitude exercise. It is not a 'things could be worse' exercise. It is a recognition exercise. You are reminding yourself that the pressure is not happening TO you — it is happening BECAUSE of the position you chose to be in. That is a completely different thing."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.3",
+      "title": "The Reframe Sentence",
+      "sub": "2 min · one sentence that turns 'have to' into 'get to'",
+      "prompt": [
+        "Rewrite your pressure using 'I get to' language. Examples:",
+        "'I have to present to the board on Tuesday' → 'I get to be in front of the people who run this company, with the thing I built, while it still matters what I say.'",
+        "'I have to close this deal or the quarter is broken' → 'I get to spend this week doing work where the outcome is unambiguous, which most people's work never is.'",
+        "Write one sentence for your pressure moment. It has to be honest — not fake positivity. 'Get to' language only works when the privilege is real, and the privilege here is real."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Re-read the sentence before the moment",
+          "body": "The 60 seconds before the pressure moment is when the old story tries to reassert itself. Reading the 'get to' sentence in that window is what actually changes your state going in. Keep the sentence somewhere accessible."
+        }
+      ],
+      "watch_out": "Toxic positivity. If the sentence feels false when you read it — like you are talking yourself into something you don't believe — the reframe was not grounded in the privilege audit. Go back to 1.2 and make the list more specific. The reframe only works when the privilege is real and named."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "number": "01",
+  "tag": "Kobe's Method · 60 minutes",
+  "title": "Build the Chip Bank",
+  "intro": "Kobe didn't wait for organic anger. He built a deliberate archive of slights and doubters — and drew on it intentionally whenever the hunger went quiet. This session is about building yours from the material you already have.",
+  "quote": {
+    "text": "Anytime someone wanted to see me fail, I put it in my memory bank and said to myself, 'I'll show you.' And if there's ever a day I don't feel like working, I recall that moment — and that's all I need.",
+    "cite": "— Kobe Bryant, 2015"
+  },
+  "deliverable": "A Chip Bank document — the wound reconstruction with the 'what it proved' close, a named case-file list of doubters, and a written activation protocol with a trigger condition and a closing sentence. Saved in a locked note on your phone.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "Reconstruct the Wound",
+      "sub": "20 min · Do this first, before anything else in the set",
+      "prompt": [
+        "Go back to the deepest professional wound — the one that still has heat. Reconstruct it in forensic detail — not the emotional memory, the specific moments. Who was in the room? What exact words were used? What did their body language say? What did you think walking out? What did the following 24 hours feel like?",
+        "Then: write what you proved when you overcame it. Not what others said — what you now know about yourself that you didn't know before."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Open with a single sensory detail",
+          "body": "Don't start with the label of what happened. Start with something physical — the room, the chair, the exact tone of voice, the time of day. Concrete sensory detail unlocks emotional memory far better than narrating events. The heat lives in the specific."
+        },
+        {
+          "num": "02",
+          "title": "Write without stopping for 15 minutes",
+          "body": "No editing, no re-reading mid-flow. If you slow down, write the last word again until you keep moving. The goal is to get the heat out, not to write something readable. Legibility doesn't matter here — potency does."
+        },
+        {
+          "num": "03",
+          "title": "Close with what it proved",
+          "body": "Spend the last 5 minutes completing this sentence three different ways: 'The person who survived that is someone who...' — the most uncomfortable true answer is the one to keep."
+        }
+      ],
+      "watch_out": "Softening the memory to make it more palatable. The fuel lives in the sharpest version of what happened — not the version you've made peace with in polite conversation."
+    },
+    {
+      "id": "1.2",
+      "title": "Build the Doubter List",
+      "sub": "20 min · Clinical, not bitter",
+      "prompt": [
+        "Make a numbered list. Every person, moment, or institution that underestimated you, passed you over, or counted you out. Anyone whose face you'd want to see when your story is told in five years.",
+        "For each entry: one sentence on what they thought. One sentence on what actually happened or what you're going to make happen."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Use real names where you remember them",
+          "body": "Vague entries like 'people who doubted me' have zero potency. Specific names and specific moments are what you can actually recall and use. If you can't name someone, describe the moment so precisely it becomes a stand-in."
+        },
+        {
+          "num": "02",
+          "title": "Keep it clinical, not emotional",
+          "body": "The format is case files, not a rant. Think: '[Name/moment]: believed [X]. What actually happened / what will happen: [Z].' The emotional charge comes from the facts themselves — you don't need to express the anger. The structure does it."
+        },
+        {
+          "num": "03",
+          "title": "Add a forward-looking section",
+          "body": "Even without names yet — who might be quietly watching to see if you can deliver on what's ahead? The skeptical stakeholder. The one who thinks you can't move fast enough. Write the archetype if you have to. Kobe constructed chips when he had to. You can too."
+        }
+      ],
+      "watch_out": null,
+      "tip": "This is not a bitterness catalogue. It's a battery. You're not meant to feel angry reading it — you're meant to feel sharp and oriented. The difference is everything."
+    },
+    {
+      "id": "1.3",
+      "title": "Write the Activation Protocol",
+      "sub": "10 min · This makes the bank actually usable",
+      "prompt": [
+        "Write a short paragraph describing the exact scenario in which you will open and read this Chip Bank. Not 'when I feel unmotivated' — more specific. When exactly? Morning of a high-stakes meeting? Sunday evening before a heavy week?",
+        "Then: write one sentence you say to yourself immediately after reading it."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Think in triggers, not moods",
+          "body": "Don't write 'when I'm feeling flat' — you won't remember to do this when you're actually flat. Name a specific trigger condition: a calendar event, a physical location, a time of day. A mood isn't usable. A trigger is."
+        },
+        {
+          "num": "02",
+          "title": "Store it in one locked phone note",
+          "body": "Not a notebook. Not a Google Doc you'll have to search for. One note, always accessible, always private. The title should mean something only to you — something that doesn't explain itself to anyone else who sees the screen."
+        }
+      ],
+      "watch_out": null
+    }
+  ]
+}

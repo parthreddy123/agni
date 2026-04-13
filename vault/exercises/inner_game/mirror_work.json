@@ -1,0 +1,76 @@
+{
+  "number": "EX",
+  "tag": "10 min · spoken, not written",
+  "title": "Mirror Work",
+  "intro": "Most of your inner work happens on a page. This one happens in front of a mirror, spoken out loud, in the voice you actually use. It is uncomfortable the first time. It is useful the first time too — the words you can say to yourself out loud, while looking yourself in the eye, are different from the words you can write in a journal. Written work reaches the mind. Mirror work reaches the body.",
+  "quote": {
+    "text": "You already know what you need to hear. You just cannot hear it until you say it out loud to your own face.",
+    "cite": ""
+  },
+  "deliverable": "Three short sentences, spoken aloud to yourself in a mirror, repeated until they stop feeling performative and start feeling true. Plus a one-sentence note on what changed.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "The Three Sentences",
+      "sub": "3 min · write them first, speak them second",
+      "prompt": [
+        "Write three sentences you need to hear from yourself. Not affirmations — specific, present-tense statements that address something you have been struggling with. Examples:",
+        "'I do not have to be the one who holds everything together this week.' 'I can say no to the Thursday meeting without explaining myself.' 'The fact that I am scared does not mean I am wrong.'",
+        "The test: each sentence should make you slightly uncomfortable to write, because it is a direct address to a specific current struggle. Generic affirmations ('I am enough') will not land in the mirror — they slide off."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Write them for the version of you who needs them today",
+          "body": "Not the general you. The Monday-morning-before-the-meeting you. The after-the-hard-phone-call you. The version that is currently present is the one the sentences need to reach."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "The Mirror",
+      "sub": "5 min · go to a mirror, alone, and speak",
+      "prompt": [
+        "Find a mirror. Bathroom is usually best — private, lit, familiar. Stand close enough that you can see your own eyes clearly. Breathe once.",
+        "Speak the first sentence aloud, slowly, while looking yourself in the eye. Not performed — said. As if you were saying it to someone you loved. Then the second sentence. Then the third. Go through all three.",
+        "Then do it again. And again. Keep going until the sentences stop feeling performative and start feeling like a conversation. This usually happens around the third or fourth repetition."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Awkwardness is the first phase",
+          "body": "The first pass through the sentences will feel ridiculous. That is not a sign it does not work. It is a sign that you are not used to speaking to yourself with warmth and eye contact, which is itself the diagnosis. Keep going. The awkwardness breaks by pass three or four."
+        },
+        {
+          "num": "02",
+          "title": "If you tear up, stop and breathe",
+          "body": "Emotional responses sometimes arrive in this exercise because nobody has spoken to you with this tone of voice, looking at you, in a long time. That response is the exercise working. Do not push through it — pause, breathe, let it move, then continue when you are ready."
+        },
+        {
+          "num": "03",
+          "title": "Do not watch yourself performing",
+          "body": "You will be tempted to observe yourself doing the exercise — notice how you look, judge how you sound. Don't. Speak to the person in the mirror as if you are in the mirror with them. The observer position is the defense the exercise is trying to get past."
+        }
+      ],
+      "watch_out": "Doing it in a voice that is not your normal voice. A theatrical voice, a whispered voice, a sing-song voice — any of these keep the exercise at arm's length. Use the voice you use when you are talking to a friend who needs you. That is the voice that reaches you."
+    },
+    {
+      "id": "1.3",
+      "title": "What Changed",
+      "sub": "2 min · one sentence",
+      "prompt": [
+        "After you finish, write one sentence about what was different at the end of the exercise than at the beginning. It might be subtle — a small loosening in your chest, a shift in how the sentences sounded, a moment where you almost smiled. Or it might be large. Whatever it is, name it."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Subtle counts",
+          "body": "You are not looking for a dramatic transformation. Mirror work works by repetition — small shifts, stacked over weeks. The sentence you write here is a note from today's-you to tomorrow's-you, proving the exercise did something and is worth doing again."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Mirror work benefits from repetition more than almost any other exercise here. Do the same three sentences every day for a week, then swap them out for three new ones the next week. The cumulative effect is larger than the individual sessions."
+    }
+  ]
+}

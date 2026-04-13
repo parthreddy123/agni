@@ -1,0 +1,86 @@
+{
+  "number": "EX",
+  "tag": "45 min · the letter to the child inside you",
+  "title": "First Contact",
+  "intro": "There is a younger version of you still running things. The one who learned to survive the environment you grew up in. The one whose strategies — the people-pleasing, the self-silencing, the over-performing, the hypervigilance — you are still using now, even though they no longer serve you. This exercise is the first conversation between current-you and that child. It is not metaphor. Something real happens when you write it.",
+  "quote": {
+    "text": "The child you were is still waiting for someone to show up. If the adult you became does not do it, no one will.",
+    "cite": ""
+  },
+  "deliverable": "Two letters: one from you today to a specific younger version of yourself, and one from that younger version back. Kept private. Re-read when the old patterns kick in.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "Pick the Age",
+      "sub": "5 min · one specific moment, not a general period",
+      "prompt": [
+        "Pick a specific age when something hard was happening in your life. Not your whole childhood — a specific age and a specific situation. The one that comes first when you read this is probably the one to pick.",
+        "Write down: the age, the situation, and the place. Two or three sentences. Just orient yourself in the memory — you are going to write to them in a minute."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Pick the one your adult self has been avoiding",
+          "body": "If two ages come up, pick the one you have written about less, thought about less, told fewer people about. The one you have kept sealed. That is the child who has been waiting longest."
+        },
+        {
+          "num": "02",
+          "title": "Specificity unlocks the exercise",
+          "body": "You are not writing to 'child me' or 'little me'. You are writing to seven-year-old you, in the kitchen, on the Saturday afternoon when your parents were fighting again. The specific version is the only version you can actually reach."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "The Letter to Them",
+      "sub": "25 min · from you, now, to them, then",
+      "prompt": [
+        "Write a letter to that specific younger version of yourself. Use their name if you used a different name then. Second person throughout.",
+        "Your letter must include at least: (1) what you see about what they are going through right now that no one else in their life is seeing; (2) the thing they are currently blaming themselves for that was never theirs to carry; (3) what happens next — not a spoiler of their life, but the truth that they survive and that the person who survived them is reading this now; (4) one specific thing you can promise them from here, that you will actually keep.",
+        "Write by hand if you can. Write slowly. This is not a speed exercise."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Let it be tender",
+          "body": "You will want to be either clinical or dramatic. Resist both. The tone that works is the tone you would use with any child in front of you whom you loved — warm, slow, unhurried. You may not have felt that tone as a child. Offer it now to the child you were."
+        },
+        {
+          "num": "02",
+          "title": "Say the thing they needed to hear",
+          "body": "Most adults doing this exercise write the thing they wish a parent had said to them at that age. That is correct. You are doing the parenting now that did not happen then. It is not too late in the way that matters."
+        },
+        {
+          "num": "03",
+          "title": "Keep the promise small",
+          "body": "The promise at the end should be small enough that you will absolutely keep it. 'I will protect you from ever feeling this small again' is too big. 'I will check in with you on Sunday afternoons for the next month' is small enough to keep. Keep it."
+        }
+      ],
+      "watch_out": "Writing a letter that is really to your parents, disguised as a letter to your younger self. You will notice this when the letter starts explaining them, defending them, or arguing with them. Stop. Come back to the child. The letter is for the child only."
+    },
+    {
+      "id": "1.3",
+      "title": "The Letter Back",
+      "sub": "15 min · from them, then, to you, now",
+      "prompt": [
+        "Now write a letter back, as that younger version of yourself, to the adult you are now. First person, in the voice you had at that age.",
+        "The letter should cover: (1) what it feels like to hear from you; (2) what they have been carrying that they want you to know about; (3) what they want from you going forward — specifically. Not 'love me', specifically."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Write in their voice",
+          "body": "If you were seven, write with the vocabulary and sentence length of a seven-year-old. The voice is part of what makes this work. Adult phrasing puts the distance back in."
+        },
+        {
+          "num": "02",
+          "title": "Let them ask for something real",
+          "body": "The most important part of this letter is the specific ask at the end. 'I want you to stop pretending you're fine when you're not.' 'I want you to not let [person] talk to us that way anymore.' 'I want you to let us be sad about [thing] instead of always moving on.' Specific asks create specific commitments."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Keep both letters somewhere you can find them easily. Re-read them when the old patterns kick in — not to feel bad, but to remember who you are doing this for. The child is not a metaphor. The commitment to them is what holds you accountable when nothing external is."
+    }
+  ]
+}

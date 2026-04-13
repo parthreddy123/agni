@@ -1,0 +1,84 @@
+{
+  "number": "EX",
+  "tag": "20 min · visualize a specific upcoming moment in forensic detail",
+  "title": "Mental Rehearsal",
+  "intro": "Elite performers across sport and business do this. They do not visualize victory in vague, triumphant terms. They visualize the exact moment — the room, the body, the breath, the first sentence, the hard bit in the middle, the specific feeling they are going to have when the pressure spikes. This exercise is that rehearsal, written down.",
+  "quote": {
+    "text": "Everything you do in the moment, you have already done in your head a thousand times. The question is whether it was the version where you showed up or the version where you didn't.",
+    "cite": ""
+  },
+  "deliverable": "A written rehearsal of a specific upcoming moment that you can re-read (or re-imagine) in the minutes before the moment actually happens.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "Pick The Moment",
+      "sub": "3 min · one specific upcoming event, not a period",
+      "prompt": [
+        "Pick one specific upcoming moment. Not 'this week' or 'the project' — a specific event with a start and end. The board meeting Tuesday. The conversation with your partner tonight. The 45 seconds at the start of the pitch. The first question in the Thursday interview.",
+        "Write: the event, when it is happening, and why you are choosing this one for rehearsal."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Pick the one where stakes are high enough to feel",
+          "body": "Mental rehearsal works on moments where something is actually at stake. If the event you pick does not raise your heart rate slightly when you think about it, pick a different one. The nervous energy is the energy the rehearsal is going to train."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "The Environment",
+      "sub": "5 min · the room in forensic detail",
+      "prompt": [
+        "Describe the environment in which the moment will happen, in concrete sensory detail. Not 'the conference room' — the specific room. What does the light look like at that time of day? Where will you sit? What is in front of you? What can you smell? What will you be wearing? Who else is in the room, where are they sitting, what are their faces doing?",
+        "The goal is to make the scene so specific that when you walk in on the day, a part of you feels like you have been here before."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Detail is the technology",
+          "body": "The brain encodes imagined specific scenes almost the same way it encodes remembered ones. The more sensory detail you add, the more the rehearsal behaves like actual experience when the real moment arrives. Cheat by including small concrete details — a coffee cup, a watch, a cough from someone across the table."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.3",
+      "title": "The Body",
+      "sub": "5 min · what happens inside you during the moment",
+      "prompt": [
+        "Describe what is happening in your body when the moment begins. Where is the tension? What is your breath doing? What is your heart rate? What do your hands want to do?",
+        "Now describe how you handle it. Specifically: what is the first thing you do with your body when the pressure spikes? Do you take a breath? Plant your feet? Drop your shoulders? Look at one specific thing in the room?",
+        "The action you describe here is the action you will be able to execute when the real moment comes, because you rehearsed it."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Body before mind",
+          "body": "Most performance failures are not cognitive — they are physiological. The heart rate spikes and the thoughts follow. Rehearsing a specific body move (drop shoulders, exhale long, plant feet) is more useful than rehearsing a specific thought, because bodies follow instructions under pressure when minds don't."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.4",
+      "title": "The Hard Middle",
+      "sub": "5 min · the moment it gets hard, and what you do",
+      "prompt": [
+        "Now describe the hard moment within the moment — the second it gets harder than you expected. The unexpected question. The pushback. The silence after you finish. The thing going sideways.",
+        "Describe what you do in that second. Not what you wish you would do — what you actually will do, having rehearsed it. First action: what is it? Second action: what comes next? What do you say aloud? What do you let land without responding to?",
+        "This is the part that most people skip. It is also the part that matters most. You are rehearsing not the triumph but the recovery."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Rehearse recovery, not flawless execution",
+          "body": "Rehearsing a perfect version of the event is less useful than rehearsing the version where something goes wrong and you recover. The recovery is the muscle. The perfect version is a fantasy that cannot survive contact with the real room."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Re-read what you wrote (or re-imagine it with your eyes closed) in the 60 seconds before the actual moment. Even if you only do this once, the rehearsal does real work. Done weekly for upcoming high-stakes moments, it becomes one of the highest-leverage practices in the library."
+    }
+  ]
+}

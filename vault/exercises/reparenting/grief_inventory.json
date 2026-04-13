@@ -1,0 +1,76 @@
+{
+  "number": "EX",
+  "tag": "30 min · name what you didn't get",
+  "title": "The Grief Inventory",
+  "intro": "Unprocessed grief runs the show. When the thing you needed as a child did not arrive — safety, attunement, protection, permission to be small — the ache for it did not disappear. It just went underground and started showing up as irritability, perfectionism, numbness, or the strange inability to accept care from people who are offering it. This exercise names what you are actually grieving so it can stop running you from underneath.",
+  "quote": {
+    "text": "What you do not grieve, you repeat. What you grieve, you finally get to set down.",
+    "cite": ""
+  },
+  "deliverable": "A written list of 3-5 specific things you needed and did not get, with one sentence each on how that absence still shapes you today, plus one page of grief expressed freely for the one that has the most weight.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "The Absences",
+      "sub": "10 min · name 3-5 specific things you needed and didn't get",
+      "prompt": [
+        "Make a list. Not a general list — a specific one. Each item should name a need that was real and an absence that was specific. Examples:",
+        "'I needed someone to notice I was disappearing and ask why. Nobody did.' 'I needed someone to tell me it was okay to be angry at [person]. Everyone told me to be grateful instead.' 'I needed someone to be the adult when [event] happened so I didn't have to be. I had to be.' 'I needed a home I could bring friends to. I didn't have one.'",
+        "Write 3-5. Specific. Real."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "The ones that still tighten your throat",
+          "body": "A valid entry is one that produces a small physical response when you write it — a tightness somewhere. If your list is emotionally flat, you are writing the safe version. Go back and write the unsafe version."
+        },
+        {
+          "num": "02",
+          "title": "Don't rank them against real tragedy",
+          "body": "You will be tempted to disqualify your needs by comparison to someone who had it worse. 'I shouldn't be grieving this, I had food and a house.' Stop. Grief is not a competition. A need that went unmet is a need that went unmet. Your body remembers, regardless of the comparison."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "The Cost Today",
+      "sub": "10 min · one sentence per item on how that absence still shapes you",
+      "prompt": [
+        "For each absence on your list, write one sentence on how you can feel it still running your behavior. Not the childhood effect — the adult effect.",
+        "'Because no one noticed me disappearing, I disappear first in relationships now, before I can be left.' 'Because no one told me it was okay to be angry, I still swallow anger until it leaks out sideways at people who don't deserve it.' 'Because I had to be the adult, I cannot let anyone else carry anything for me now — it feels dangerous.'",
+        "Name the adult behavior. Name the childhood absence. Draw the line between them."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "This is not explaining away",
+          "body": "Connecting a childhood absence to an adult behavior is not an excuse for the adult behavior. It is information. You are still responsible for what you do now. But understanding the root makes it possible to change the branch, which abstract willpower never does."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.3",
+      "title": "Grieve The Heaviest One",
+      "sub": "10 min · pick one and let it weigh what it weighs",
+      "prompt": [
+        "Pick the one item from your list that carries the most weight. Now spend ten minutes writing about that specific absence — not analyzing it, grieving it. What did you need. What you imagined it would feel like if it had been there. What you had to become in its absence. How it feels now, as an adult, to name that it was never there.",
+        "Let the writing be messy. Let it repeat itself. Let yourself cry if that happens — this exercise is about letting the grief have its own shape, not producing something well-written."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Grief is not solving",
+          "body": "You are not writing to fix anything. You are not writing to understand your parents better. You are not writing to forgive. You are writing because a piece of you has been carrying something for a long time without permission to set it down, and this is the permission."
+        },
+        {
+          "num": "02",
+          "title": "Once is not enough",
+          "body": "Grief comes in waves, not a single event. You will do this exercise and feel lighter. Then next week it will come back. That is not failure. That is how grief works. Come back to this exercise whenever a wave arrives."
+        }
+      ],
+      "watch_out": "Rushing to the reframe. 'But I'm grateful for the lessons it taught me' is a real sentence and also the wrong sentence for this exercise. Save the gratitude for next month. Right now, let the absence be an absence without rushing to make it useful."
+    }
+  ]
+}

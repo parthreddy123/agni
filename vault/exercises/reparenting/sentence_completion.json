@@ -1,0 +1,121 @@
+{
+  "number": "EX",
+  "tag": "20 min · rapid-fire bypass defenses",
+  "title": "Sentence Completion",
+  "intro": "The conscious mind guards. It rationalizes, edits, performs. Sentence completion — done fast, without stopping — bypasses the guard. You get the unedited truth about what you actually believe and feel, especially about the things you have made yourself stop noticing. This exercise is adapted from Nathaniel Branden's self-esteem work.",
+  "quote": {
+    "text": "What we refuse to see does not go away. It just runs us from underneath.",
+    "cite": ""
+  },
+  "deliverable": "Twenty rapid completions across four stems, plus a 3-sentence summary of what you learned about yourself that you did not know before you started.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "The Rules",
+      "sub": "1 min · read before starting",
+      "prompt": [
+        "You will see four stems. For each stem, you write SIX endings as fast as possible. No editing, no re-reading, no thinking. If nothing comes, write anything — 'I don't know' counts. The first answer is usually a defense; the third is usually curious; the fifth and sixth are usually true.",
+        "Set a timer: 2 minutes per stem. Start writing. When the timer rings, stop immediately and go to the next stem."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "The discomfort is the point",
+          "body": "The goal is to feel slightly uncomfortable writing at least half of your answers. If every answer feels safe, you slowed down and edited. Go faster on the next stem."
+        },
+        {
+          "num": "02",
+          "title": "Contradictions are fine",
+          "body": "Your endings will contradict each other. That is accurate. You are not one thing — you are a collection of parts, and this exercise surfaces the parts that usually stay quiet. Contradiction means it is working."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "Stem One",
+      "sub": "2 min · six completions, fast",
+      "prompt": [
+        "Complete this stem six ways, as fast as possible:",
+        "'If I took more responsibility for my life today...'"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Write the obvious ones first, then push past",
+          "body": "The first two endings will be generic. Endings 3-6 are where the real material is. Keep writing even when it feels repetitive — the repetition usually cracks into something you didn't expect by ending 5."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.3",
+      "title": "Stem Two",
+      "sub": "2 min · six completions, fast",
+      "prompt": [
+        "Complete this stem six ways, as fast as possible:",
+        "'If I were willing to feel what I actually feel right now...'"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "No abstractions",
+          "body": "If an ending is vague ('I would feel more'), replace it with something concrete ('I would feel the grief I have been pretending is tiredness'). Specificity is what makes this exercise work."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.4",
+      "title": "Stem Three",
+      "sub": "2 min · six completions, fast",
+      "prompt": [
+        "Complete this stem six ways, as fast as possible:",
+        "'The thing I am working hardest not to look at is...'"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "The uncomfortable one is the real one",
+          "body": "If one of your six endings makes you flinch, underline it. That is the one worth spending time with later."
+        }
+      ],
+      "watch_out": "Writing what you think you should write. This stem rewards honesty, and your inner editor will fight you on it. Speed is the antidote — if you are writing fast enough, the editor can't catch up."
+    },
+    {
+      "id": "1.5",
+      "title": "Stem Four",
+      "sub": "2 min · six completions, fast",
+      "prompt": [
+        "Complete this stem six ways, as fast as possible:",
+        "'If I were five percent more the person I am trying to be...'"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Small gaps are the workable ones",
+          "body": "Five percent is deliberately small. It takes the exercise out of the realm of fantasy and into the realm of things you could actually do this week. The endings that work here are often embarrassingly doable."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.6",
+      "title": "The Read-Back",
+      "sub": "5 min · what did you learn",
+      "prompt": [
+        "Read back all 24 endings. Underline the three that have the most charge — the ones that made you flinch, or the ones that sounded more true than you expected.",
+        "Then write a 3-sentence summary: (1) The thing I said that I did not know I thought. (2) The pattern that appeared across more than one stem. (3) One specific thing I am going to do this week in response."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Trust the underlines",
+          "body": "Your underlined ones are more accurate than your summary. When the two conflict, trust the underlined raw ending, not the neat summary you wrote later. The summary is the conscious mind trying to take the material back."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Re-run this exercise every 2-3 weeks. Different stems, same format. Over time you will build a private record of the things your conscious mind has been editing out."
+    }
+  ]
+}

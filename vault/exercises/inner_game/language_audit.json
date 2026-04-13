@@ -1,0 +1,81 @@
+{
+  "number": "EX",
+  "tag": "15 min · find the fear language you've been using and rewrite it",
+  "title": "The Language Audit",
+  "intro": "The words you use about your work are not neutral — they are instructions to your nervous system. Fear language (have to, stuck, afraid, can't, should, try) generates fear responses. Excellence language (get to, choosing, want, will, do) generates different ones. This exercise is a quick audit of the language you have been running in your entries, and a rewrite of the specific phrases that have been running you.",
+  "quote": {
+    "text": "The words are the weather. Change the weather and the landscape looks different — even though the landscape did not move.",
+    "cite": ""
+  },
+  "deliverable": "A short list of 3-5 fear-language phrases you have been using, with each one rewritten in excellence language, ready to substitute in next time those thoughts show up.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "Scan Your Recent Entries",
+      "sub": "5 min · look for the patterns",
+      "prompt": [
+        "Open your last 5-7 daily journal entries (or run `agni vault sync` and open the Daily folder). Scan for phrases that contain any of these signals:",
+        "'have to' / 'need to' / 'should'",
+        "'stuck' / 'can't' / 'won't be able to'",
+        "'trying to' / 'attempting to' / 'hoping to'",
+        "'worried about' / 'scared of' / 'anxious that'",
+        "'too much' / 'not enough' / 'behind'",
+        "Write down the specific phrases that come up more than once. You are looking for the 3-5 phrases that keep reappearing — those are the load-bearing ones."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "The repeats are the real ones",
+          "body": "A phrase used once is vocabulary. A phrase used three times across five entries is a belief that is currently shaping your week. The repeats are what this exercise is targeting."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "Rewrite Each Phrase",
+      "sub": "5 min · precise substitutions",
+      "prompt": [
+        "For each phrase on your list, write a rewrite in excellence language. The rules:",
+        "'Have to' becomes 'get to' or 'am choosing to'. 'Should' becomes 'will' or 'am not going to'. 'Trying' becomes 'doing' or 'not doing'. 'Stuck' becomes 'haven't yet' or 'currently choosing'. 'Worried' becomes 'paying attention to'. 'Too much' becomes 'more than last month'.",
+        "Write the original phrase, then the rewrite. 5 pairs. Keep them personal to what you actually wrote — this is not a theoretical vocabulary exercise, it is a substitution you will actually use tomorrow."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "The rewrite has to feel true",
+          "body": "If the rewrite feels like a lie, the substitution is too aggressive. 'I am stuck on this project' → 'I am crushing this project' is not a rewrite, it is a delusion. The real rewrite is 'I haven't yet found the shape of this project' — honest, and language that leaves the door open instead of closing it."
+        },
+        {
+          "num": "02",
+          "title": "Honesty beats positivity",
+          "body": "Excellence language is not positive language. It is language that is accurate AND leaves room for agency. 'I am behind' becomes 'I am currently running two weeks later than I planned on X, and the reason is Y' — that is not positive, but it is active and specific."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.3",
+      "title": "One Phrase To Retire This Week",
+      "sub": "5 min · pick the heaviest one and commit",
+      "prompt": [
+        "Pick the ONE phrase from your list that has been the heaviest — the one that shows up most, or the one whose rewrite feels most freeing when you read it. Write: 'This week, every time I catch myself saying or thinking [original phrase], I will replace it with [rewrite].'",
+        "Then ask: what would change in my week if this substitution held consistently? Write one sentence."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "One phrase, not five",
+          "body": "Trying to retire five phrases at once is how most habit changes fail. One phrase, one week, is enough. Next week you can work on a different one. Sequential beats parallel."
+        },
+        {
+          "num": "02",
+          "title": "Catching the phrase IS the work",
+          "body": "You will fail at substituting it some of the time. That is not failure — the fact that you noticed yourself using it is already a change. Over the week the noticing gets faster, until the substitution happens automatically. That is what you are training."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Run this exercise monthly, or after a hard week. The language drifts, and the drift is invisible until you scan for it. A monthly audit keeps the vocabulary you actually speak to yourself in line with the vocabulary you want to be speaking."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "number": "03",
+  "tag": "Djokovic's Method · 45 minutes",
+  "title": "Map the Expanded Mission",
+  "intro": "When Grand Slams stopped being enough, Djokovic changed what the game meant — he made longevity and legacy the new mountain. This session is about making your current chapter feel as large as it actually is, so the day-to-day feels like it's building toward something irreversible.",
+  "quote": {
+    "text": "Longevity is one of my biggest motivations. I really want to see how far I can go. I still want to do more — and I know that comes from a good place. A place of purpose, love, passion.",
+    "cite": "— Novak Djokovic"
+  },
+  "deliverable": "A one-page Mission Brief with objective, intelligence to acquire, and exit condition — plus a named 10-year benchmark with an 'exceeding' sentence, and a reframe paragraph. Re-read this any time the work feels small.",
+  "exercises": [
+    {
+      "id": "3.1",
+      "title": "Write the Mission Brief",
+      "sub": "20 min · One page. Written like a deployment briefing, not a career plan",
+      "prompt": [
+        "Write your current chapter as a covert mission brief. You are inside something large, with a specific mandate, accumulating something no one else will have. What specifically are you accumulating? What does walking out the other side look like? What can you build then that you cannot build now?"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Use a three-part structure",
+          "body": "Write under three headers: Objective (what you're actually building, not just your job title), Intelligence to Acquire (domain knowledge, network, proprietary insight that nobody outside can get), and Exit Condition (what you walk out with, and what that enables that wasn't possible before)."
+        },
+        {
+          "num": "02",
+          "title": "Make failure feel real",
+          "body": "Add one line: 'If I coast through this chapter, what I permanently lose is...' — not in terms of a job, but in terms of the thing you're trying to build. The stakes have to feel real for the mission to pull."
+        },
+        {
+          "num": "03",
+          "title": "Write it in a voice that takes itself seriously",
+          "body": "Not humble. Not hedged. This is a briefing, not a LinkedIn post. Write as if briefing someone who needs to understand why this chapter matters above all others. That seriousness is what makes it something you actually return to when the work feels small."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "3.2",
+      "title": "Name Your 10-Year Benchmark",
+      "sub": "10 min · Djokovic used LeBron. Who is yours?",
+      "prompt": [
+        "Djokovic named LeBron, Brady, and Ronaldo — people still performing at 40, extending the ceiling of what was thought possible. Name your equivalent: someone who has built what you want to build, or who represents the scale you're moving toward. What specific thing about their trajectory is the benchmark? And what does exceeding them — not just reaching them — look like?"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Make it a named individual, not a category",
+          "body": "A vague category carries no motivational charge. A specific person — someone whose moves you can track, whose decisions you can study — creates genuine orientation. It doesn't need to be someone you know. It just needs to be someone whose trajectory is concrete enough to measure against."
+        },
+        {
+          "num": "02",
+          "title": "Write one sentence on exceeding, not just reaching",
+          "body": "Djokovic didn't just want to play as long as Brady. He wanted to see how far he could go beyond what any predecessor had done. What does it look like to exceed your benchmark — not match it? That's the sentence that creates the permanent horizon."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "3.3",
+      "title": "Write the Reframe Paragraph",
+      "sub": "10 min · The paragraph for hard operational days",
+      "prompt": [
+        "Write a paragraph that reframes every frustrating, slow, political, or operational day as irreplaceable data collection. What specifically are you learning each week that no one who hasn't sat where you sit could ever learn?"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Name the non-replicable assets explicitly",
+          "body": "Don't write generic things. Write the specific knowledge or access only this seat gives you. These are assets no outsider can replicate. Name them."
+        },
+        {
+          "num": "02",
+          "title": "Test it against a bad day",
+          "body": "Read this paragraph imagining a genuinely tedious day — nothing resolved, nothing moving. Does reading it restore a sense of what that day was worth? If not, make it more specific. The reframe only works if it's vivid enough to change the emotional valence."
+        }
+      ],
+      "watch_out": null,
+      "tip": "This paragraph needs to be findable in under 30 seconds on a bad day. Keep it at the top of your Mission Brief, or as a separate pinned note."
+    }
+  ]
+}

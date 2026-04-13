@@ -1,0 +1,355 @@
+{
+  "sessions": [
+    {
+      "id": 1,
+      "number": "01",
+      "tag": "Kobe's Method · 60 minutes",
+      "title": "Build the Chip Bank",
+      "intro": "Kobe didn't wait for organic anger. He built a deliberate archive of slights and doubters — and drew on it intentionally whenever the hunger went quiet. This session is about building yours from the material you already have.",
+      "quote": {
+        "text": "Anytime someone wanted to see me fail, I put it in my memory bank and said to myself, 'I'll show you.' And if there's ever a day I don't feel like working, I recall that moment — and that's all I need.",
+        "cite": "— Kobe Bryant, 2015"
+      },
+      "deliverable": "A Chip Bank document — the wound reconstruction with the 'what it proved' close, a named case-file list of doubters, and a written activation protocol with a trigger condition and a closing sentence. Saved in a locked note on your phone.",
+      "exercises": [
+        {
+          "id": "1.1",
+          "title": "Reconstruct the Wound",
+          "sub": "20 min · Do this first, before anything else in the set",
+          "prompt": [
+            "Go back to the deepest professional wound — the one that still has heat. Reconstruct it in forensic detail — not the emotional memory, the specific moments. Who was in the room? What exact words were used? What did their body language say? What did you think walking out? What did the following 24 hours feel like?",
+            "Then: write what you proved when you overcame it. Not what others said — what you now know about yourself that you didn't know before."
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Open with a single sensory detail",
+              "body": "Don't start with the label of what happened. Start with something physical — the room, the chair, the exact tone of voice, the time of day. Concrete sensory detail unlocks emotional memory far better than narrating events. The heat lives in the specific."
+            },
+            {
+              "num": "02",
+              "title": "Write without stopping for 15 minutes",
+              "body": "No editing, no re-reading mid-flow. If you slow down, write the last word again until you keep moving. The goal is to get the heat out, not to write something readable. Legibility doesn't matter here — potency does."
+            },
+            {
+              "num": "03",
+              "title": "Close with what it proved",
+              "body": "Spend the last 5 minutes completing this sentence three different ways: 'The person who survived that is someone who...' — the most uncomfortable true answer is the one to keep."
+            }
+          ],
+          "watch_out": "Softening the memory to make it more palatable. The fuel lives in the sharpest version of what happened — not the version you've made peace with in polite conversation."
+        },
+        {
+          "id": "1.2",
+          "title": "Build the Doubter List",
+          "sub": "20 min · Clinical, not bitter",
+          "prompt": [
+            "Make a numbered list. Every person, moment, or institution that underestimated you, passed you over, or counted you out. Anyone whose face you'd want to see when your story is told in five years.",
+            "For each entry: one sentence on what they thought. One sentence on what actually happened or what you're going to make happen."
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Use real names where you remember them",
+              "body": "Vague entries like 'people who doubted me' have zero potency. Specific names and specific moments are what you can actually recall and use. If you can't name someone, describe the moment so precisely it becomes a stand-in."
+            },
+            {
+              "num": "02",
+              "title": "Keep it clinical, not emotional",
+              "body": "The format is case files, not a rant. Think: '[Name/moment]: believed [X]. What actually happened / what will happen: [Z].' The emotional charge comes from the facts themselves — you don't need to express the anger. The structure does it."
+            },
+            {
+              "num": "03",
+              "title": "Add a forward-looking section",
+              "body": "Even without names yet — who might be quietly watching to see if you can deliver on what's ahead? The skeptical stakeholder. The one who thinks you can't move fast enough. Write the archetype if you have to. Kobe constructed chips when he had to. You can too."
+            }
+          ],
+          "watch_out": null,
+          "tip": "This is not a bitterness catalogue. It's a battery. You're not meant to feel angry reading it — you're meant to feel sharp and oriented. The difference is everything."
+        },
+        {
+          "id": "1.3",
+          "title": "Write the Activation Protocol",
+          "sub": "10 min · This makes the bank actually usable",
+          "prompt": [
+            "Write a short paragraph describing the exact scenario in which you will open and read this Chip Bank. Not 'when I feel unmotivated' — more specific. When exactly? Morning of a high-stakes meeting? Sunday evening before a heavy week?",
+            "Then: write one sentence you say to yourself immediately after reading it."
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Think in triggers, not moods",
+              "body": "Don't write 'when I'm feeling flat' — you won't remember to do this when you're actually flat. Name a specific trigger condition: a calendar event, a physical location, a time of day. A mood isn't usable. A trigger is."
+            },
+            {
+              "num": "02",
+              "title": "Store it in one locked phone note",
+              "body": "Not a notebook. Not a Google Doc you'll have to search for. One note, always accessible, always private. The title should mean something only to you — something that doesn't explain itself to anyone else who sees the screen."
+            }
+          ],
+          "watch_out": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "number": "02",
+      "tag": "Brady's Method · 45 minutes",
+      "title": "Define the Unsatisfiable Standard",
+      "intro": "Brady's opponent was always himself. No external validation could fully satisfy him, so the hunger was structurally permanent. This session builds an internal performance standard so high that you can never fully arrive — only ever get closer.",
+      "quote": {
+        "text": "It's always about what I can do better in the future. That journey is never-ending. In many ways I don't think I'll ever be satisfied.",
+        "cite": "— Tom Brady, The TB12 Method"
+      },
+      "deliverable": "A written 100% Version portrait in third person with a gap statement, and a Daily Closing Question — sharpened across five drafts, written on a card, placed somewhere you see it before sleep.",
+      "exercises": [
+        {
+          "id": "2.1",
+          "title": "The Coulda-Shoulda Audit",
+          "sub": "15 min · Surgical honesty, not self-punishment",
+          "prompt": [
+            "Think about your strongest six months of work — the work you're most proud of. Now ask Brady's question: where did you coulda-shoulda? Not self-punishment. Surgical truth. Where did you operate at 80% when 100% was available? What preparation did you skip? What insight did you leave half-formed? What relationship did you underinvest in?"
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Be specific about the gap, not the outcome",
+              "body": "Don't write 'I could have been better in client meetings.' Write: 'In the [specific meeting], I hadn't read their annual report deeply enough, and my question landed shallow. I knew it before I asked it.' The specificity proves the gap is real and closeable — which is the whole point."
+            },
+            {
+              "num": "02",
+              "title": "The goal is proof, not guilt",
+              "body": "This exercise exists to prove to yourself that there is always a higher level, even after your best work. Brady used this not to feel bad but to feel oriented — toward a version of himself that was always just ahead. Read it that way."
+            }
+          ],
+          "watch_out": null
+        },
+        {
+          "id": "2.2",
+          "title": "Write the Portrait of the 100% Version",
+          "sub": "20 min · Your internal competitor — always just ahead",
+          "prompt": [
+            "Write a portrait of the version of you who operates at full capacity in your current chapter. Not a fantasy — a rigorous, specific picture. What does he/she know that you don't yet? How do they prepare differently? How do they show up in the room with decision-makers? How do they handle political friction? What is their relationship with their team? How do they use this time?"
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Write in third person",
+              "body": "Writing 'he/she' instead of 'I' creates useful psychological distance — you're describing someone to aspire toward, not narrating what you already are. It makes the gap feel concrete rather than abstract."
+            },
+            {
+              "num": "02",
+              "title": "Make it context-specific, not generic",
+              "body": "Don't write 'he is well-prepared and respected.' Write the specific things: what reports he has read, what domain he knows cold, what happens when he speaks in the room. The specificity is what makes it motivating."
+            },
+            {
+              "num": "03",
+              "title": "End with the gap statement",
+              "body": "Close the portrait with: 'The distance between who I am today and this person is...' — finish it honestly. That gap is not a failure. It's your permanent source of forward motion."
+            }
+          ],
+          "watch_out": "Making the 100% version too comfortable or achievable. If you can imagine fully arriving within a year, you haven't gone far enough. This version should always be slightly beyond reach — that's the design."
+        },
+        {
+          "id": "2.3",
+          "title": "Write Your Daily Closing Question",
+          "sub": "10 min · The sentence you ask yourself every night",
+          "prompt": [
+            "Brady's question was: 'Could I have done more?' Write your version — the single question you ask yourself at the end of every working day. It should hold you to the standard without spiralling into anxiety. It should sting slightly when you can't answer yes. Write five versions and keep the one that feels most true and specific."
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "React against these drafts",
+              "body": "Try these as starting points, then rewrite until one is yours: 'Did I make myself harder to replace today?' / 'Did I learn something that changes how I understand this work?' / 'Did I operate like a founder or an employee today?' / 'Did I earn the mandate today?'"
+            },
+            {
+              "num": "02",
+              "title": "Test it against a coasting day",
+              "body": "Imagine a day where you attended all the meetings, replied to all the emails, and produced nothing original. Ask your question about that day. If you can say yes to it easily on a coasting day, the question isn't sharp enough. Sharpen until coasting fails the test."
+            }
+          ],
+          "watch_out": null,
+          "tip": "Write it on a physical card. Put it somewhere you see it before sleep — desk, nightstand, bathroom mirror. The ritual of asking it daily matters as much as the content of the question."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "number": "03",
+      "tag": "Djokovic's Method · 45 minutes",
+      "title": "Map the Expanded Mission",
+      "intro": "When Grand Slams stopped being enough, Djokovic changed what the game meant — he made longevity and legacy the new mountain. This session is about making your current chapter feel as large as it actually is, so the day-to-day feels like it's building toward something irreversible.",
+      "quote": {
+        "text": "Longevity is one of my biggest motivations. I really want to see how far I can go. I still want to do more — and I know that comes from a good place. A place of purpose, love, passion.",
+        "cite": "— Novak Djokovic"
+      },
+      "deliverable": "A one-page Mission Brief with objective, intelligence to acquire, and exit condition — plus a named 10-year benchmark with an 'exceeding' sentence, and a reframe paragraph. Re-read this any time the work feels small.",
+      "exercises": [
+        {
+          "id": "3.1",
+          "title": "Write the Mission Brief",
+          "sub": "20 min · One page. Written like a deployment briefing, not a career plan",
+          "prompt": [
+            "Write your current chapter as a covert mission brief. You are inside something large, with a specific mandate, accumulating something no one else will have. What specifically are you accumulating? What does walking out the other side look like? What can you build then that you cannot build now?"
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Use a three-part structure",
+              "body": "Write under three headers: Objective (what you're actually building, not just your job title), Intelligence to Acquire (domain knowledge, network, proprietary insight that nobody outside can get), and Exit Condition (what you walk out with, and what that enables that wasn't possible before)."
+            },
+            {
+              "num": "02",
+              "title": "Make failure feel real",
+              "body": "Add one line: 'If I coast through this chapter, what I permanently lose is...' — not in terms of a job, but in terms of the thing you're trying to build. The stakes have to feel real for the mission to pull."
+            },
+            {
+              "num": "03",
+              "title": "Write it in a voice that takes itself seriously",
+              "body": "Not humble. Not hedged. This is a briefing, not a LinkedIn post. Write as if briefing someone who needs to understand why this chapter matters above all others. That seriousness is what makes it something you actually return to when the work feels small."
+            }
+          ],
+          "watch_out": null
+        },
+        {
+          "id": "3.2",
+          "title": "Name Your 10-Year Benchmark",
+          "sub": "10 min · Djokovic used LeBron. Who is yours?",
+          "prompt": [
+            "Djokovic named LeBron, Brady, and Ronaldo — people still performing at 40, extending the ceiling of what was thought possible. Name your equivalent: someone who has built what you want to build, or who represents the scale you're moving toward. What specific thing about their trajectory is the benchmark? And what does exceeding them — not just reaching them — look like?"
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Make it a named individual, not a category",
+              "body": "A vague category carries no motivational charge. A specific person — someone whose moves you can track, whose decisions you can study — creates genuine orientation. It doesn't need to be someone you know. It just needs to be someone whose trajectory is concrete enough to measure against."
+            },
+            {
+              "num": "02",
+              "title": "Write one sentence on exceeding, not just reaching",
+              "body": "Djokovic didn't just want to play as long as Brady. He wanted to see how far he could go beyond what any predecessor had done. What does it look like to exceed your benchmark — not match it? That's the sentence that creates the permanent horizon."
+            }
+          ],
+          "watch_out": null
+        },
+        {
+          "id": "3.3",
+          "title": "Write the Reframe Paragraph",
+          "sub": "10 min · The paragraph for hard operational days",
+          "prompt": [
+            "Write a paragraph that reframes every frustrating, slow, political, or operational day as irreplaceable data collection. What specifically are you learning each week that no one who hasn't sat where you sit could ever learn?"
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Name the non-replicable assets explicitly",
+              "body": "Don't write generic things. Write the specific knowledge or access only this seat gives you. These are assets no outsider can replicate. Name them."
+            },
+            {
+              "num": "02",
+              "title": "Test it against a bad day",
+              "body": "Read this paragraph imagining a genuinely tedious day — nothing resolved, nothing moving. Does reading it restore a sense of what that day was worth? If not, make it more specific. The reframe only works if it's vivid enough to change the emotional valence."
+            }
+          ],
+          "watch_out": null,
+          "tip": "This paragraph needs to be findable in under 30 seconds on a bad day. Keep it at the top of your Mission Brief, or as a separate pinned note."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "number": "04",
+      "tag": "Serena's Method · 45 minutes",
+      "title": "Set the Identity Anchor",
+      "intro": "Serena's hunger lasted because she made her performance inseparable from who she was — not just what she wanted to achieve. This session builds the identity layer that makes not performing feel like a betrayal of self, not just underperformance.",
+      "quote": {
+        "text": "I play for me, but I also play and represent something much greater than me. I embrace that. I love that. I want that.",
+        "cite": "— Serena Williams"
+      },
+      "deliverable": "A 3-sentence Identity Statement — your core identity, one sentence on what coasting would be a betrayal of, and one sentence on what you represent beyond yourself. Not an affirmation. A declaration.",
+      "exercises": [
+        {
+          "id": "4.1",
+          "title": "The Identity Inventory",
+          "sub": "15 min · Write fast. Don't filter.",
+          "prompt": [
+            "Finish the sentence 'I am the kind of person who...' ten different ways without stopping to think. Write fast. Include things that feel embarrassingly true, not just impressive. Include contradictions. When you have ten, read them back and circle the two or three that feel most irreducibly, uncomfortably true."
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Include the unflattering truths",
+              "body": "The most powerful identity statements usually include something that sounds more like a confession than a credential. 'I am the kind of person who needs to be exceptional to feel okay' is more useful than 'I am the kind of person who works hard.' The first one has teeth. The second one is everyone."
+            },
+            {
+              "num": "02",
+              "title": "Look for the pattern across all ten",
+              "body": "After writing all ten, read them and ask: what is the core beneath all of these? Usually two or three are really saying the same thing in different ways. That core is your identity anchor — the thing that stays true regardless of role, title, or outcome."
+            }
+          ],
+          "watch_out": "Writing aspirational statements instead of currently true ones. The test: would someone who knows you well read each statement and nod — or raise an eyebrow? Keep only the ones that produce the nod."
+        },
+        {
+          "id": "4.2",
+          "title": "Name the Betrayal",
+          "sub": "15 min · The most important exercise in the entire set",
+          "prompt": [
+            "If you arrived at your current chapter and coasted — attended the meetings, collected the title, produced nothing transformative — what exactly would that be a betrayal of? Not a missed opportunity. Not underperformance. A betrayal of what, specifically? Write without softening. Name the thing whose integrity you'd be violating."
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "Go deeper than 'wasted potential'",
+              "body": "That's too abstract to feel real. Drill: A betrayal of what? The person who survived the hardest thing you've been through? The understanding you and your partner made? The version of yourself at 50 looking back? The mission you told yourself this role was for? Keep asking 'of what' until you land on the answer that actually has weight."
+            },
+            {
+              "num": "02",
+              "title": "Compress it into one sentence",
+              "body": "The answer to this prompt — in one sentence — is the most durable motivational tool you build today. It requires no external condition to activate. No villain, no audience, no external validation. Just you knowing what you stand for and refusing to violate it."
+            }
+          ],
+          "watch_out": null
+        },
+        {
+          "id": "4.3",
+          "title": "Name What You Represent",
+          "sub": "10 min · The mission beyond yourself",
+          "prompt": [
+            "Serena performed for herself AND for something larger. What do you represent beyond your own career? Think about the people closest to you. Think about the larger things you care about. Write: 'Beyond my own success, I represent...'"
+          ],
+          "guidance": [
+            {
+              "num": "01",
+              "title": "This is about meaning, not pressure",
+              "body": "The goal is not to burden yourself with the weight of others' expectations. The goal is to give the work meaning that outlasts your mood. On a day when you don't feel like performing for yourself, performing for what you represent still activates. That's the value."
+            },
+            {
+              "num": "02",
+              "title": "Write a statement, not a list",
+              "body": "Don't list people or causes. Complete this in one flowing sentence: 'Beyond my own success, I represent...' — the ending should feel slightly larger than comfortable. It should feel like a responsibility you're choosing, not one imposed on you."
+            }
+          ],
+          "watch_out": null,
+          "tip": "Ego-fuel burns hot and burns out fast. Meaning-fuel is slower burning but practically inexhaustible. The more your performance connects to something beyond ego, the more durable the hunger."
+        }
+      ]
+    }
+  ],
+  "schedule": [
+    {"time": "Session 01", "name": "The Chip Bank", "dur": "60 min · Kobe", "session_id": 1},
+    {"time": "Session 02", "name": "The Unsatisfiable Standard", "dur": "45 min · Brady", "session_id": 2},
+    {"time": "Break", "name": "Walk. No phone.", "dur": "30 min", "session_id": null},
+    {"time": "Session 03", "name": "The Expanded Mission", "dur": "45 min · Djokovic", "session_id": 3},
+    {"time": "Session 04", "name": "The Identity Anchor", "dur": "45 min · Serena", "session_id": 4},
+    {"time": "Synthesis", "name": "The Affirmations", "dur": "15 min", "session_id": "synth"}
+  ],
+  "closing": {
+    "title": "Synthesis: Write the New Affirmations",
+    "body": [
+      "You did this before. They worked not because they were positive thinking but because they were a daily act of recommitting to a version of yourself that hadn't fully arrived yet.",
+      "Now do it again. Using everything produced today, write 5 affirmations — one drawn from each mechanism. Not generic positivity. Specific, sharp, slightly uncomfortable truths. The test: if you read one on a morning when you don't feel like it, does it shift something? If not, it isn't sharp enough."
+    ],
+    "final_note": "The wound was real. But it was a trigger — not the source. The source is you. Today you build the infrastructure around it, so it runs without needing a wound to activate it."
+  }
+}

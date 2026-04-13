@@ -1,0 +1,70 @@
+{
+  "number": "EX",
+  "tag": "20 min · name what you're avoiding",
+  "title": "The Fear Inventory",
+  "intro": "The things you're actively avoiding cost more than the things you're actively doing. Most people cannot list their three biggest avoidances — which is exactly why those avoidances keep driving their week. This exercise names them so you can stop paying the interest.",
+  "quote": {
+    "text": "We suffer more often in imagination than in reality. What we fear most is often the thing that, once named, becomes trivially smaller.",
+    "cite": "— adapted from Seneca"
+  },
+  "deliverable": "A written inventory of 3-5 current avoidances, with a one-sentence 'worst case' for each, and one of them committed to action within 48 hours.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "Name the Avoidances",
+      "sub": "10 min · what are you not doing that you know you should be?",
+      "prompt": [
+        "List 3-5 things you are currently avoiding. Conversations you know you need to have. Decisions you keep deferring. Emails you keep 'forgetting' to reply to. A meeting you keep postponing. A truth you haven't told someone. A piece of work you open and close without starting.",
+        "For each one, write one sentence on what you're afraid will happen if you do it."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "The test: would you be relieved if it just went away?",
+          "body": "If you imagine the thing magically resolving itself and you feel relief rather than indifference, it belongs on this list. If you feel nothing, it doesn't. You are looking for the ones with charge."
+        },
+        {
+          "num": "02",
+          "title": "Include the small ones",
+          "body": "The small avoidances (a three-sentence email, a five-minute phone call) are often more corrosive than the big ones, because they accumulate without getting counted. Put them on the list alongside the bigger ones."
+        }
+      ],
+      "watch_out": "Only listing the socially visible ones. The private avoidances — the personal conversation, the health appointment you haven't made, the bank statement you haven't opened — are usually the heavier ones."
+    },
+    {
+      "id": "1.2",
+      "title": "The Worst Case",
+      "sub": "5 min · look directly at what you're afraid of",
+      "prompt": [
+        "For each item, write the actual worst case in one sentence. Not 'it might not go well' — the specific, concrete worst outcome. 'They say no and I feel rejected for two days.' 'The number is worse than I think and I have to change my plan.' 'The conversation ends the relationship.'",
+        "Then ask: is the worst case actually worse than continuing to pay the weekly cost of avoiding it? Most of the time, the honest answer is no."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Concrete beats vague",
+          "body": "'It might go badly' keeps the fear unfalsifiable and therefore permanent. 'She tells me she doesn't want to see me again' is small enough to actually imagine, and therefore smaller than the fear of it."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.3",
+      "title": "One, Now",
+      "sub": "5 min · pick one, commit to a window",
+      "prompt": [
+        "Pick one item from the list — not necessarily the hardest, but the one whose elimination would free up the most mental bandwidth. Write: 'I will do [specific action] by [specific time within 48 hours].'",
+        "Then write one sentence about what you'll feel when it's done. That sentence is what you come back to when the avoidance tries to reassert itself."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "48 hours is the ceiling",
+          "body": "Longer than that and the commitment decays into intention. 48 hours is short enough to feel real, long enough to find a window. If you can't find a 10-minute slot in 48 hours, the avoidance is managing your calendar, not you."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Re-run this inventory monthly. The specific items change but the pattern of avoidances usually points at one underlying thing. Over time, that thing gets legible."
+    }
+  ]
+}

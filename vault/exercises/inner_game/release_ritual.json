@@ -1,0 +1,74 @@
+{
+  "number": "EX",
+  "tag": "20 min · name one attachment and release it",
+  "title": "The Release Ritual",
+  "intro": "When you grip an outcome too tightly, the grip itself becomes the thing that prevents it. Peak performers know this — they learn to care completely about the work and hold the outcome loosely. This exercise names what you are currently gripping and walks you through a written release so the grip softens just enough for you to act freely again.",
+  "quote": {
+    "text": "The outcome you cannot release is the outcome that is running you. Release is not giving up. Release is the only way to stay free enough to actually earn the thing.",
+    "cite": ""
+  },
+  "deliverable": "One named attachment, a written description of what you are afraid will happen if it does not arrive, and a release statement you can come back to when the grip tightens again.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "Name The Grip",
+      "sub": "5 min · one specific outcome you are clenched around",
+      "prompt": [
+        "Name one outcome you are currently gripping — a specific thing you want that you are afraid of not getting. Not general ('I want to be successful'). Specific: a promotion, a particular reply, a deal closing, someone saying yes, a number landing above a threshold.",
+        "Write it as one sentence: 'I am gripping the outcome where [specific thing happens] by [specific time].'"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "The grip is where the energy is",
+          "body": "A useful test: if the thing you are gripping is taken away in your imagination, do you feel relief (you weren't actually gripping it) or panic (you were)? The panic answer is the one to work with."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "The Worst Case",
+      "sub": "10 min · look directly at what you are afraid of",
+      "prompt": [
+        "Now write what you are afraid will happen if the outcome does not arrive. Not 'it would be bad' — the specific, concrete worst case. What would change? Who would know? What would you tell yourself about what this means about you?",
+        "Keep going until you reach the bottom. 'If this doesn't happen, X, which means Y, which would mean I am Z.' Follow the chain all the way down. Usually somewhere around the fourth or fifth layer you hit the actual fear — the one the whole grip has been protecting you from."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "The actual fear is usually identity, not outcome",
+          "body": "'If this deal doesn't close, I am exposed as someone who can't actually do this.' 'If she doesn't reply, I am the kind of person who is easy to ignore.' The fear under the outcome is almost always a fear about what the outcome says about who you are. That is the fear to work with, not the surface one."
+        },
+        {
+          "num": "02",
+          "title": "Imagining the worst case shrinks it",
+          "body": "Most ungripped fears stay huge because they are kept vague. The moment you write them in specific language, they stop being mythic and start being small. Not solved — smaller. Small enough to hold."
+        }
+      ],
+      "watch_out": "Rushing through this to get to the release step. The release does not work unless the fear has been fully named. If the worst-case description is three lines, you are still protecting yourself. Go back and write it more concretely."
+    },
+    {
+      "id": "1.3",
+      "title": "The Release",
+      "sub": "5 min · the sentence you come back to",
+      "prompt": [
+        "Write a release statement. The formula: 'I want [the outcome]. I am choosing to act as if it might happen AND as if it might not. Either way, I am doing [the specific actions] because [the reason that is not the outcome]. I release the outcome from being the thing that determines who I am.'",
+        "Fill in the blanks for your specific situation. Keep it to 3-5 sentences. The statement should feel slightly uncomfortable when you read it — release is never fully comfortable the first time."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Release is not detachment",
+          "body": "This exercise is not telling you to stop caring. It is telling you to care about the work without the work having to prove your worth. Detachment is cold; release is warm. You are still fully in the work — you have just removed the requirement that the outcome be the thing that makes you okay."
+        },
+        {
+          "num": "02",
+          "title": "Re-read when the grip returns",
+          "body": "The grip will return. It comes back whenever something new raises the stakes. Keep this release statement somewhere you can find it, and read it when the tightness returns. You are not fixing the grip once — you are learning a practice."
+        }
+      ],
+      "watch_out": null
+    }
+  ]
+}

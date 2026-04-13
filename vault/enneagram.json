@@ -1,0 +1,184 @@
+{
+  "types": {
+    "1": {
+      "name": "The Reformer",
+      "description": "Principled, purposeful, self-controlled, and perfectionistic. Ones carry a strong inner standard of how things should be, and an even stronger inner critic that punishes deviations. When healthy, they are wise, discerning, and quietly moral. When unhealthy, they are resentful, rigid, and angry at a world that refuses to cooperate with their standards.",
+      "core_fear": "Being corrupt, defective, wrong, or bad",
+      "core_desire": "To be good, have integrity, and be beyond reproach",
+      "passion": "Anger (suppressed as resentment and 'righteous' frustration)",
+      "virtue": "Serenity — accepting reality as it is, not as it should be",
+      "stress_arrow": 4,
+      "stress_description": "Under stress, Ones go to unhealthy 4: moody, self-pitying, self-indulgent, convinced no one understands the weight they carry",
+      "growth_arrow": 7,
+      "growth_description": "In growth, Ones move toward healthy 7: spontaneous, joyful, open to experience, able to let go of the need to be right",
+      "key_patterns": [
+        "Inner critic that never goes quiet",
+        "Should / must / ought language",
+        "Procrastination driven by fear of imperfection",
+        "Repressed resentment that leaks out sideways",
+        "Correcting others (overtly or silently) in ways that alienate"
+      ],
+      "recommended_exercises": ["fear_inventory", "sunday_reset", "morning_ignition"]
+    },
+    "2": {
+      "name": "The Helper",
+      "description": "Caring, interpersonal, demonstrative, generous — and quietly desperate to be loved and needed. Twos intuit others' needs before their own and struggle to even identify what they want. At their best, they are genuinely loving and selfless. At their worst, they are manipulative through martyrdom, indirect, and crushed when gratitude fails to arrive.",
+      "core_fear": "Being unloved or unwanted for themselves",
+      "core_desire": "To be loved",
+      "passion": "Pride (disguised as humility — 'I don't need anything, I just give')",
+      "virtue": "Humility — admitting one's own needs without shame",
+      "stress_arrow": 8,
+      "stress_description": "Under stress, Twos go to unhealthy 8: aggressive, demanding, openly angry about what they feel they are owed",
+      "growth_arrow": 4,
+      "growth_description": "In growth, Twos move toward healthy 4: self-aware, able to feel their own emotions instead of living through others'",
+      "key_patterns": [
+        "Anticipating others' needs before they're voiced",
+        "Inability to state own needs directly",
+        "Martyrdom — keeping score silently",
+        "Flattery and indirect influence as primary tools",
+        "Emotional exhaustion from over-giving"
+      ],
+      "recommended_exercises": ["inner_motivation", "fear_inventory", "five_year_letter"]
+    },
+    "3": {
+      "name": "The Achiever",
+      "description": "Adaptive, ambitious, image-conscious, driven. Threes learned early that love was contingent on performance, and they became exceptional performers. Identity fuses with accomplishment. When healthy, they are genuinely competent and inspiring. When unhealthy, they are deceitful (especially to themselves), workaholic, and completely lost if the achievement ladder is removed.",
+      "core_fear": "Being worthless without success",
+      "core_desire": "To feel valuable and worthwhile",
+      "passion": "Deceit (especially self-deceit — believing the image is the person)",
+      "virtue": "Truthfulness — to self, about what is actually felt underneath the performance",
+      "stress_arrow": 9,
+      "stress_description": "Under stress, Threes go to unhealthy 9: disengaged, numb, unable to feel anything, going through the motions",
+      "growth_arrow": 6,
+      "growth_description": "In growth, Threes move toward healthy 6: loyal, grounded, able to commit without needing the commitment to pay off",
+      "key_patterns": [
+        "Identity fused with achievement — worth = output",
+        "Chameleon personality: adapts to whoever is in front of them",
+        "Cannot rest — rest feels like existential threat",
+        "Image management over actual substance",
+        "Avoidance of emotions that might slow performance"
+      ],
+      "recommended_exercises": ["inner_motivation", "five_year_letter", "sunday_reset"]
+    },
+    "4": {
+      "name": "The Individualist",
+      "description": "Sensitive, withdrawn, expressive, melancholic. Fours feel fundamentally different — flawed in some ineffable way that sets them apart. They focus on what is missing and often romanticize their own pain as proof of depth. At their best, they are authentic, creative, and emotionally honest in a way that unlocks others. At their worst, they are self-absorbed, identity-obsessed, and enamored with their own suffering.",
+      "core_fear": "Having no identity or personal significance",
+      "core_desire": "To find themselves and their significance",
+      "passion": "Envy — of what others seem to have that makes them whole",
+      "virtue": "Equanimity — experiencing emotions without being captured by them",
+      "stress_arrow": 2,
+      "stress_description": "Under stress, Fours go to unhealthy 2: clingy, possessive, desperate for closeness, losing self in the other",
+      "growth_arrow": 1,
+      "growth_description": "In growth, Fours move toward healthy 1: principled, productive, able to show up consistently rather than only when inspired",
+      "key_patterns": [
+        "Focus on what is missing rather than what is present",
+        "Emotional amplification — feeling more than seems normal",
+        "Feeling different / alien / misunderstood",
+        "Romanticizing pain as evidence of depth",
+        "Identity shame — feeling fundamentally flawed"
+      ],
+      "recommended_exercises": ["sunday_reset", "morning_ignition", "fear_inventory"]
+    },
+    "5": {
+      "name": "The Investigator",
+      "description": "Intense, cerebral, perceptive, innovative — and deeply afraid of being overwhelmed or depleted. Fives withdraw into the mind and hoard time, energy, and knowledge as protection against a world that feels invasive. At their best, they are original thinkers with pioneering insight. At their worst, they are detached observers of their own life, perpetually preparing to live rather than living.",
+      "core_fear": "Being useless, incompetent, incapable, overwhelmed",
+      "core_desire": "To be capable and competent",
+      "passion": "Avarice — hoarding of time, energy, knowledge, inner space",
+      "virtue": "Non-attachment — generosity with self as well as with things",
+      "stress_arrow": 7,
+      "stress_description": "Under stress, Fives go to unhealthy 7: scattered, hyperactive, jumping between ideas to avoid the threatening one",
+      "growth_arrow": 8,
+      "growth_description": "In growth, Fives move toward healthy 8: confident, assertive, able to act from the body and not just the head",
+      "key_patterns": [
+        "Withdrawal into the mind as primary coping",
+        "Minimizing own needs to feel safe",
+        "Preparation as a form of avoidance",
+        "Observing life rather than participating in it",
+        "Detachment that looks like wisdom but functions as protection"
+      ],
+      "recommended_exercises": ["fear_inventory", "morning_ignition", "inner_motivation"]
+    },
+    "6": {
+      "name": "The Loyalist",
+      "description": "Committed, security-oriented, anxious, skeptical. Sixes scan the environment for threat and test the reliability of everything around them. They want certainty and cannot have it, so they build systems of safety: alliances, authorities, contingencies. At their best, they are deeply loyal and courageous under fire. At their worst, they are paranoid, reactive, and their own worst enemies.",
+      "core_fear": "Being without support, guidance, or security",
+      "core_desire": "To have security and support",
+      "passion": "Fear (projected outward as vigilance and suspicion)",
+      "virtue": "Courage — acting despite fear rather than waiting to not feel it",
+      "stress_arrow": 3,
+      "stress_description": "Under stress, Sixes go to unhealthy 3: image-focused, workaholic, trying to earn safety through performance",
+      "growth_arrow": 9,
+      "growth_description": "In growth, Sixes move toward healthy 9: receptive, trusting, able to rest in the moment without scanning for the next threat",
+      "key_patterns": [
+        "Worst-case scenario thinking as default",
+        "Testing loyalty of the people closest to them",
+        "Counter-phobic bravado alternating with phobic avoidance",
+        "Suspicion of authority followed by submission to it",
+        "Difficulty trusting own judgment without external verification"
+      ],
+      "recommended_exercises": ["fear_inventory", "five_year_letter", "sunday_reset"]
+    },
+    "7": {
+      "name": "The Enthusiast",
+      "description": "Spontaneous, versatile, scattered, pain-avoidant. Sevens learned to reframe suffering as opportunity and keep the future bright enough that the present never gets heavy. At their best, they are joyful, curious, and genuinely free. At their worst, they are impulsive, commitment-averse, and unable to sit with any feeling that isn't pleasant.",
+      "core_fear": "Being trapped in pain, deprivation, boredom",
+      "core_desire": "To be satisfied, happy, and free",
+      "passion": "Gluttony — for experiences, options, stimulation",
+      "virtue": "Sobriety — being present to what is, even when boring or painful",
+      "stress_arrow": 1,
+      "stress_description": "Under stress, Sevens go to unhealthy 1: critical, perfectionistic, impatient with others' imperfection",
+      "growth_arrow": 5,
+      "growth_description": "In growth, Sevens move toward healthy 5: focused, absorbed, capable of depth and sustained attention",
+      "key_patterns": [
+        "Reframing pain as opportunity (to avoid feeling it)",
+        "Starting more than finishing",
+        "Future-orientation as escape from present discomfort",
+        "Difficulty with commitment — every door kept open",
+        "Using optimism as defense against grief"
+      ],
+      "recommended_exercises": ["sunday_reset", "morning_ignition", "inner_motivation"]
+    },
+    "8": {
+      "name": "The Challenger",
+      "description": "Powerful, dominant, self-confident, confrontational. Eights learned early that the world respects strength and punishes vulnerability, so they built a fortress. They protect the weak, dominate the strong, and equate softness with danger. At their best, they are magnanimous and genuinely protective. At their worst, they are ruthless, intimidating, and cut off from their own tenderness.",
+      "core_fear": "Being controlled, harmed, violated, or vulnerable",
+      "core_desire": "To protect themselves and determine their own course",
+      "passion": "Lust — for intensity, power, unfiltered experience",
+      "virtue": "Innocence — the return to openness and trust",
+      "stress_arrow": 5,
+      "stress_description": "Under stress, Eights go to unhealthy 5: secretive, withdrawn, plotting from isolation",
+      "growth_arrow": 2,
+      "growth_description": "In growth, Eights move toward healthy 2: caring, openly tender, able to show the soft underside without losing power",
+      "key_patterns": [
+        "Bluntness experienced as honesty, received as aggression",
+        "Vulnerability equated with weakness and danger",
+        "Dominance-testing of anyone new in their space",
+        "Protecting others as a way to avoid their own tenderness",
+        "Excess as self-medication — food, work, intensity, conflict"
+      ],
+      "recommended_exercises": ["fear_inventory", "five_year_letter", "inner_motivation"]
+    },
+    "9": {
+      "name": "The Peacemaker",
+      "description": "Receptive, reassuring, agreeable, complacent. Nines learned that their own agenda caused conflict, so they merged with everyone else's and forgot their own. They numb through small comforts and procrastinate on the things that matter most. At their best, they are deeply grounded, wise, and quietly unifying. At their worst, they are absent from their own life.",
+      "core_fear": "Loss of connection, fragmentation, being pulled apart",
+      "core_desire": "To maintain inner and outer peace",
+      "passion": "Sloth — not physical laziness, but self-forgetting and inertia",
+      "virtue": "Action — showing up for one's own life, deliberately",
+      "stress_arrow": 6,
+      "stress_description": "Under stress, Nines go to unhealthy 6: anxious, suspicious, catastrophizing",
+      "growth_arrow": 3,
+      "growth_description": "In growth, Nines move toward healthy 3: engaged, goal-oriented, willing to take up space and pursue things",
+      "key_patterns": [
+        "Merging with others' agendas and losing track of own",
+        "Numbing through small comforts — food, TV, scrolling",
+        "Procrastination on the important via the trivial",
+        "Passive aggression when direct assertion feels dangerous",
+        "Inability to identify what they actually want"
+      ],
+      "recommended_exercises": ["morning_ignition", "sunday_reset", "inner_motivation"]
+    }
+  }
+}

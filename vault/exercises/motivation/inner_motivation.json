@@ -1,0 +1,75 @@
+{
+  "number": "EX",
+  "tag": "25 min · strip the goal down to the motivator underneath",
+  "title": "Find the Real Fuel",
+  "intro": "Most stated goals are socially acceptable covers for something rawer underneath. The cover-goal rarely sustains effort past the first hard month. This exercise strips the cover off and finds what's actually pulling.",
+  "quote": {
+    "text": "The strongest fuel is rarely the thing you tell other people you're after. It's the thing you don't quite want to say out loud.",
+    "cite": ""
+  },
+  "deliverable": "A one-sentence statement of the real motivator underneath your current stated goal. Written plainly. Kept private.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "State the Goal Plainly",
+      "sub": "5 min · the version you'd put on a performance review",
+      "prompt": [
+        "Write your current primary goal — the thing you've been telling yourself (and maybe others) you're working toward. One sentence. Use the language you'd use in a review, a resume, or a dinner-party answer to 'what are you working on?'"
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Use the sanitized version first",
+          "body": "This is the wrapper. It doesn't have to be honest yet. 'Become a VP.' 'Launch the product.' 'Get to a million in revenue.' The generic version is exactly what you want here — that's the surface layer we're going to strip."
+        }
+      ],
+      "watch_out": null
+    },
+    {
+      "id": "1.2",
+      "title": "The Five Whys",
+      "sub": "15 min · drill down until you hit something that makes you slightly uncomfortable",
+      "prompt": [
+        "Take the sanitized goal from 1.1. Ask 'why do I want that?' and write a one-sentence answer. Then ask 'why do I want that?' about your answer. Five times.",
+        "Each answer should go one layer deeper — not sideways. If the layer below sounds almost identical to the layer above, you're dodging. Push again.",
+        "The real answer usually arrives somewhere between layer 3 and layer 5, and it usually arrives with a small physical flinch."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Signals you've hit the real one",
+          "body": "Slight discomfort writing it. Sounds petty, selfish, or raw when you read it back. Would sound bad in a job interview. Would be accurate in a private journal. These are all good signs. The respectable motivators rarely sustain work; the raw ones do."
+        },
+        {
+          "num": "02",
+          "title": "Common layer-3 traps",
+          "body": "'To help people' / 'because it's meaningful' / 'to make a difference' — these are usually cover goals too. Keep asking why. The person those things serve is usually you, in disguise."
+        },
+        {
+          "num": "03",
+          "title": "Let it be small and specific",
+          "body": "The real fuel is often embarrassingly small. 'So my cousin will finally take me seriously.' 'So I never have to explain myself at a family dinner again.' 'So the person who said I wasn't capable has to update their model of me.' Smallness doesn't mean weakness — the small specific motivators are the sharpest."
+        }
+      ],
+      "watch_out": "Staying philosophical. If your layer-5 answer sounds like a TED talk, it isn't the real layer. Go again. The real answer is something you'd hesitate to say aloud at a work lunch."
+    },
+    {
+      "id": "1.3",
+      "title": "Write the Real Sentence",
+      "sub": "5 min · one line, plainly",
+      "prompt": [
+        "Write the real motivator as one sentence. Start with 'The actual thing I want is...' — no softening, no qualifying, no making it sound more respectable. Plain language.",
+        "Then ask: would reading this sentence on a flat day move you? If yes, keep it. If not, the five whys weren't deep enough — go back and push further."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Keep this one private",
+          "body": "This sentence isn't for a talk, a post, or a colleague. It's for you. The value comes from its honesty, and honesty doesn't survive an audience. Store it somewhere only you will see."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Re-run this exercise every six months. The real motivator shifts as you change, and the version that was potent last year may have gone dull."
+    }
+  ]
+}

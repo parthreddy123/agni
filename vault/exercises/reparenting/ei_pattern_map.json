@@ -1,0 +1,78 @@
+{
+  "number": "EX",
+  "tag": "30 min · map the parent patterns you still carry",
+  "title": "The EI Parent Map",
+  "intro": "Emotional immaturity has nothing to do with intelligence, education, or social status. A parent can run a company, earn degrees, impress every neighbor — and still have the emotional capacity of a seven-year-old. This exercise names which patterns shaped you and which ones you still run, so you can stop mistaking them for yours.",
+  "quote": {
+    "text": "You can't change what you won't name. And you can't name what you've been taught to call normal.",
+    "cite": ""
+  },
+  "deliverable": "A short written portrait of the emotional environment you grew up in, naming the dominant pattern and two to three specific ways you still carry it — plus one sentence on what that costs you now.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "Name the Dominant Type",
+      "sub": "10 min · pick the one that fits — there will be overlap, pick anyway",
+      "prompt": [
+        "There are four rough types of emotional immaturity in parents. Read all four and pick the one that fits your primary caregiver best. If two fit, pick the one that had the biggest impact on you.",
+        "THE EMOTIONAL: volatile, dramatic, unpredictable. Small triggers produce big reactions. You learned to read the room before you learned to read a book. Their moods determined the weather in the house.",
+        "THE DRIVEN: perfectionistic, goal-obsessed, emotionally absent. Love was transactional — earned through achievement, withdrawn through failure. They may have looked successful; you may have looked fine.",
+        "THE PASSIVE: checked-out, conflict-averse, present but unavailable. They didn't harm actively, they harmed by absence. You grew up feeling like an afterthought, even when they were in the same room.",
+        "THE REJECTING: dismissive, cold, openly uninterested. They made it clear your needs were a burden. You learned early that asking was pointless, so you stopped asking.",
+        "Write the type. Then write 3-4 specific memories that are textbook examples of that type."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Use your adult eyes",
+          "body": "You are not writing this to rank their parenting. You are writing it to name a pattern that is running you now. The memories you pick should be the ones that still have charge — not the ones you tell at family dinners."
+        },
+        {
+          "num": "02",
+          "title": "If both parents fit, pick the one with more influence",
+          "body": "Often one parent's emotional immaturity dominated the home while the other's was secondary. You can come back and do this exercise for the other parent later. For now, the one whose patterns you can feel running in your own behavior is the one to map first."
+        }
+      ],
+      "watch_out": "Softening into understanding them. 'But they had a hard life too' is true, and it is also irrelevant to this exercise. The goal is not forgiveness — not yet. The goal is naming. Understanding comes later, after naming."
+    },
+    {
+      "id": "1.2",
+      "title": "Name What You Learned",
+      "sub": "10 min · the survival strategies you built that are still running",
+      "prompt": [
+        "Every emotionally immature environment teaches a survival strategy. Name yours — not the childhood version, the adult version of the same thing. Examples:",
+        "If you had an emotional parent, you may have learned to suppress your own feelings to avoid adding to the chaos — and you still do this in high-stakes meetings.",
+        "If you had a driven parent, you may have learned that love is performance — and you still tie your worth to your output.",
+        "If you had a passive parent, you may have learned not to ask for anything — and you still don't tell people what you need in relationships.",
+        "If you had a rejecting parent, you may have learned that you are fundamentally too much — and you still self-edit to make yourself smaller.",
+        "Write 2-3 specific strategies you are still running. Be concrete — name the situations where they show up."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "The test: 'I do this even now'",
+          "body": "A valid entry is one you can finish this sentence with: 'I learned this at age [X], and I still do it when [specific adult situation].' If you can't finish that sentence, you are probably listing a parent's trait rather than a strategy you absorbed."
+        }
+      ],
+      "watch_out": "Listing the strategies as character flaws. They are not flaws. They are survival tactics that kept a child safe in a specific environment. The only problem is you are no longer in that environment and the tactics are no longer saving you — they are costing you. Frame it that way."
+    },
+    {
+      "id": "1.3",
+      "title": "The Cost Today",
+      "sub": "10 min · one sentence on what it costs you now",
+      "prompt": [
+        "Write one sentence — the cost of still running the pattern. Not the past cost. The current, this-year cost. What would your life look like this month if you weren't doing this?",
+        "Keep it specific. 'I would ask for what I need' is too abstract. 'I would have told him I was furious instead of making that joke' is specific."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "This sentence is the whole exercise",
+          "body": "Everything above was orientation. This sentence is the point. It is what you come back to when the pattern kicks in and you need a reason to do the harder thing. Make it sharp enough to be useful in the moment."
+        }
+      ],
+      "watch_out": null,
+      "tip": "Keep this written up somewhere you can see it. When you catch yourself running the old strategy, read the cost sentence. Over months, the gap between running the pattern and noticing it running closes."
+    }
+  ]
+}

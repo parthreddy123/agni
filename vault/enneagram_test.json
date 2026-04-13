@@ -1,0 +1,49 @@
+{
+  "instructions": "Rate each statement from 1 (strongly disagree) to 5 (strongly agree). Answer based on how you actually are most of the time, not how you wish you were or how you were at your best. The accuracy of your type depends on the honesty of your answers.",
+  "questions": [
+    {"id": 1,  "type": 1, "text": "I have a strong inner critic that notices what's wrong with almost everything, including me"},
+    {"id": 2,  "type": 1, "text": "I often feel frustrated when others don't hold themselves to the standards I hold myself to"},
+    {"id": 3,  "type": 1, "text": "I struggle to finish things because they are never quite right"},
+    {"id": 4,  "type": 1, "text": "I have a clear sense of how things should be, and it bothers me when they're not that way"},
+
+    {"id": 5,  "type": 2, "text": "I tend to notice what other people need before they say anything"},
+    {"id": 6,  "type": 2, "text": "I find it hard to identify, let alone ask for, what I need myself"},
+    {"id": 7,  "type": 2, "text": "People often come to me for emotional support, and I rarely say no"},
+    {"id": 8,  "type": 2, "text": "I feel most valuable when I am helping or caring for someone"},
+
+    {"id": 9,  "type": 3, "text": "My sense of worth is closely tied to what I achieve and how I am seen"},
+    {"id": 10, "type": 3, "text": "I adapt my personality to whoever I'm with, to win them over or impress them"},
+    {"id": 11, "type": 3, "text": "I am uncomfortable with rest or downtime — I feel I should be producing"},
+    {"id": 12, "type": 3, "text": "I care a lot about how I am perceived by people who matter to me"},
+
+    {"id": 13, "type": 4, "text": "I often feel fundamentally different from everyone around me, in a way that's hard to explain"},
+    {"id": 14, "type": 4, "text": "I tend to focus on what's missing from my life more than what is already there"},
+    {"id": 15, "type": 4, "text": "I experience emotions more intensely than most people seem to"},
+    {"id": 16, "type": 4, "text": "I feel most authentic when I am being emotionally honest, even when it's inconvenient"},
+
+    {"id": 17, "type": 5, "text": "I need a lot of private time and space to recharge after being around people"},
+    {"id": 18, "type": 5, "text": "I prefer observing and analyzing to jumping in and participating"},
+    {"id": 19, "type": 5, "text": "I am careful — even stingy — with my time, energy, and personal information"},
+    {"id": 20, "type": 5, "text": "I prepare and research extensively before acting on something"},
+
+    {"id": 21, "type": 6, "text": "I often play out worst-case scenarios in my head to prepare for them"},
+    {"id": 22, "type": 6, "text": "I value loyalty highly, and I am fiercely loyal to the people I trust"},
+    {"id": 23, "type": 6, "text": "I am quick to spot problems, risks, or inconsistencies that others miss"},
+    {"id": 24, "type": 6, "text": "I struggle to fully trust my own judgment without checking it against others"},
+
+    {"id": 25, "type": 7, "text": "I often reframe painful experiences as opportunities to keep myself moving"},
+    {"id": 26, "type": 7, "text": "I find it hard to sit with negative emotions for long — I want to get past them"},
+    {"id": 27, "type": 7, "text": "I tend to start many more things than I finish"},
+    {"id": 28, "type": 7, "text": "I am future-oriented — I rarely get stuck thinking about the past"},
+
+    {"id": 29, "type": 8, "text": "I am direct and don't sugar-coat my opinions, even when it makes others uncomfortable"},
+    {"id": 30, "type": 8, "text": "I instinctively test new people to see what they are really made of"},
+    {"id": 31, "type": 8, "text": "I am uncomfortable showing vulnerability, especially in front of people I don't trust"},
+    {"id": 32, "type": 8, "text": "I have a strong need to be in control of my environment and decisions"},
+
+    {"id": 33, "type": 9, "text": "I often go along with what others want rather than assert what I actually want"},
+    {"id": 34, "type": 9, "text": "I numb out or distract myself when things feel overwhelming"},
+    {"id": 35, "type": 9, "text": "I put off important things by doing many smaller, less important ones"},
+    {"id": 36, "type": 9, "text": "It is hard for me to say no to people I care about, even when I should"}
+  ]
+}

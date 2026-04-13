@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agni — Fire Journal</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0c0c0c;
+  --bg-card: #141414;
+  --bg-input: #0a0a0a;
+  --border: #2a2418;
+  --amber: #f5a623;
+  --amber-bright: #ffd080;
+  --amber-dim: #9b6a14;
+  --text: #efefef;
+  --text-dim: #8a8270;
+  --text-muted: #5a5550;
+  --danger: #ef4444;
+  --success: #22c55e;
+  --font-sans: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 60px 32px 120px;
+}
+
+/* Hero */
+.banner {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1.3;
+  color: var(--amber);
+  white-space: pre;
+  text-align: center;
+  margin: 40px 0 24px;
+  letter-spacing: 0;
+}
+.banner .bright { color: var(--amber-bright); }
+.banner .dim { color: var(--amber-dim); }
+.tagline {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+.lede {
+  text-align: center;
+  color: var(--text);
+  font-size: 1.25rem;
+  max-width: 640px;
+  margin: 32px auto 16px;
+  line-height: 1.55;
+}
+.sublede {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 1rem;
+  max-width: 640px;
+  margin: 0 auto 48px;
+}
+
+/* Section */
+section { margin: 64px 0; }
+h2 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--amber);
+  font-weight: 600;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 12px;
+}
+h3 {
+  font-size: 1.05rem;
+  color: var(--amber-bright);
+  margin: 24px 0 8px;
+  font-weight: 600;
+}
+p { margin-bottom: 16px; color: var(--text); }
+p.dim { color: var(--text-dim); }
+
+/* Install steps */
+.install-step {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+  align-items: flex-start;
+}
+.step-num {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--amber);
+  color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.step-body { flex: 1; min-width: 0; }
+.step-body h3 {
+  margin-top: 4px;
+  color: var(--text);
+  font-size: 1.05rem;
+}
+.step-body p {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+/* Code block */
+.code {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 14px 16px;
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  color: var(--amber-bright);
+  overflow-x: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.code pre { color: inherit; flex: 1; white-space: pre; }
+.copy-btn {
+  background: var(--border);
+  color: var(--text-dim);
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all 0.15s;
+}
+.copy-btn:hover {
+  background: var(--amber-dim);
+  color: var(--text);
+}
+.copy-btn.copied {
+  background: var(--success);
+  color: var(--bg);
+}
+
+/* Modes grid */
+.modes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+.mode {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+}
+.mode-name {
+  color: var(--amber);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.mode-desc {
+  color: var(--text-dim);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+/* Exercise list */
+.exercise-cat {
+  margin-bottom: 28px;
+}
+.cat-title {
+  color: var(--amber);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+.cat-sub {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+.ex-list { list-style: none; }
+.ex-item {
+  display: flex;
+  gap: 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+.ex-item:last-child { border-bottom: none; }
+.ex-slug {
+  font-family: var(--font-mono);
+  color: var(--amber-bright);
+  font-size: 0.85rem;
+  flex-shrink: 0;
+  width: 220px;
+}
+.ex-desc { color: var(--text-dim); font-size: 0.9rem; }
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 80px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+footer a {
+  color: var(--amber);
+  text-decoration: none;
+}
+footer a:hover { color: var(--amber-bright); }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .container { padding: 32px 20px 80px; }
+  .banner { font-size: 8px; }
+  .lede { font-size: 1.1rem; }
+  .ex-slug { width: 160px; font-size: 0.8rem; }
+  .ex-item { flex-direction: column; gap: 4px; }
+  .ex-slug { width: auto; }
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<div class="banner"><span class="amber">╔═════════════════════════════════════════╗
+║                                         ║
+║                 A G N I                 ║
+║             ─────────────────           ║
+║        </span><span class="bright">▲</span><span class="dim"> fanning your inner fire </span><span class="bright">▲</span><span class="amber">        ║
+║                                         ║
+╚═════════════════════════════════════════╝</span></div>
+
+<p class="lede">A journal that actually knows you.</p>
+<p class="sublede">You talk, it listens. It notices when you drift, nudges you on the days you need it, and helps you go deeper when something is stuck. Encrypted on your laptop. No accounts, no cloud, no passwords to lose.</p>
+
+<section>
+<h2>Install (3 steps)</h2>
+
+<div class="install-step">
+<div class="step-num">1</div>
+<div class="step-body">
+<h3>Clone the repo</h3>
+<p>Copy this and paste it into your terminal. You need <code>git</code> and <code>python 3.10+</code>.</p>
+<div class="code"><pre>git clone https://github.com/parthreddy123/agni.git
+cd agni</pre><button class="copy-btn" onclick="copy(this, 'git clone https://github.com/parthreddy123/agni.git\ncd agni')">copy</button></div>
+</div>
+</div>
+
+<div class="install-step">
+<div class="step-num">2</div>
+<div class="step-body">
+<h3>Install</h3>
+<p>This makes the <code>agni</code> command available everywhere. Pulls in <code>cryptography</code> as the only dependency.</p>
+<div class="code"><pre>pip install -e .</pre><button class="copy-btn" onclick="copy(this, 'pip install -e .')">copy</button></div>
+</div>
+</div>
+
+<div class="install-step">
+<div class="step-num">3</div>
+<div class="step-body">
+<h3>Initialize</h3>
+<p>Generates a local encryption key. No passphrase to remember. Done.</p>
+<div class="code"><pre>agni init</pre><button class="copy-btn" onclick="copy(this, 'agni init')">copy</button></div>
+</div>
+</div>
+
+<p class="dim" style="margin-top: 24px;">Optional but recommended — install the <code>/agni</code> slash command for Claude Code so you can use Agni as a copilot:</p>
+<div class="code"><pre>mkdir -p ~/.claude/commands && cp .claude/commands/agni.md ~/.claude/commands/</pre><button class="copy-btn" onclick="copy(this, 'mkdir -p ~/.claude/commands && cp .claude/commands/agni.md ~/.claude/commands/')">copy</button></div>
+
+</section>
+
+<section>
+<h2>What you get — six modes</h2>
+<div class="modes">
+
+<div class="mode">
+<div class="mode-name">Daily</div>
+<div class="mode-desc">A 5-minute structured journal. Three things you're grateful for, three intentions, an affirmation. Or free-form, whatever's on your mind.</div>
+</div>
+
+<div class="mode">
+<div class="mode-name">Therapy</div>
+<div class="mode-desc">Sit down and talk. Claude reads your recent entries, notices patterns, and you work through what's actually there. Best for scattered or stuck days.</div>
+</div>
+
+<div class="mode">
+<div class="mode-name">Exercises</div>
+<div class="mode-desc">19 single-session practices across 5 categories — see below. If none fit, Claude builds a custom one.</div>
+</div>
+
+<div class="mode">
+<div class="mode-name">Profile</div>
+<div class="mode-desc">A 36-question enneagram test. Takes 10 minutes. Once set, it becomes the lens for every other mode — sharper prompts, sharper observations.</div>
+</div>
+
+<div class="mode">
+<div class="mode-name">Dashboard</div>
+<div class="mode-desc">Streak, 90-day dot grid, and a read of where you are. Not stats for stats' sake.</div>
+</div>
+
+<div class="mode">
+<div class="mode-name">Vault</div>
+<div class="mode-desc">Export everything as plain markdown so you can browse by date in Obsidian, OneNote, or any notes app.</div>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Exercise library</h2>
+
+<div class="exercise-cat">
+<div class="cat-title">Core</div>
+<div class="cat-sub">single-session essentials</div>
+<ul class="ex-list">
+<li class="ex-item"><span class="ex-slug">fear_inventory</span><span class="ex-desc">name what you are avoiding and face one</span></li>
+<li class="ex-item"><span class="ex-slug">sunday_reset</span><span class="ex-desc">weekly audit — worked / drifted / reset</span></li>
+<li class="ex-item"><span class="ex-slug">five_year_letter</span><span class="ex-desc">a letter from your future self</span></li>
+<li class="ex-item"><span class="ex-slug">morning_ignition</span><span class="ex-desc">90-second daily activator</span></li>
+</ul>
+</div>
+
+<div class="exercise-cat">
+<div class="cat-title">Motivation</div>
+<ul class="ex-list">
+<li class="ex-item"><span class="ex-slug">inner_motivation</span><span class="ex-desc">find the real fuel under your stated goal</span></li>
+</ul>
+</div>
+
+<div class="exercise-cat">
+<div class="cat-title">Performance</div>
+<div class="cat-sub">for big identity / career moments — do all 4 in sequence</div>
+<ul class="ex-list">
+<li class="ex-item"><span class="ex-slug">chip_bank</span><span class="ex-desc">build a mental archive of doubters (Kobe)</span></li>
+<li class="ex-item"><span class="ex-slug">unsatisfiable_standard</span><span class="ex-desc">define a version of you always ahead (Brady)</span></li>
+<li class="ex-item"><span class="ex-slug">expanded_mission</span><span class="ex-desc">make this chapter feel as big as it is (Djokovic)</span></li>
+<li class="ex-item"><span class="ex-slug">identity_anchor</span><span class="ex-desc">make coasting feel like self-betrayal (Serena)</span></li>
+</ul>
+</div>
+
+<div class="exercise-cat">
+<div class="cat-title">Reparenting</div>
+<div class="cat-sub">family-of-origin work, inner child, self-esteem</div>
+<ul class="ex-list">
+<li class="ex-item"><span class="ex-slug">ei_pattern_map</span><span class="ex-desc">map the parent patterns you still carry</span></li>
+<li class="ex-item"><span class="ex-slug">sentence_completion</span><span class="ex-desc">20-stem rapid-fire, bypass defenses</span></li>
+<li class="ex-item"><span class="ex-slug">inner_child_first_contact</span><span class="ex-desc">letter to and from the child within</span></li>
+<li class="ex-item"><span class="ex-slug">grief_inventory</span><span class="ex-desc">grieve what you didn't get</span></li>
+<li class="ex-item"><span class="ex-slug">reparenting_letter</span><span class="ex-desc">write as the parent you needed</span></li>
+</ul>
+</div>
+
+<div class="exercise-cat">
+<div class="cat-title">Inner Game</div>
+<div class="cat-sub">peak-performance mental work</div>
+<ul class="ex-list">
+<li class="ex-item"><span class="ex-slug">mirror_work</span><span class="ex-desc">ten minutes spoken, not written</span></li>
+<li class="ex-item"><span class="ex-slug">release_ritual</span><span class="ex-desc">name and release one attachment</span></li>
+<li class="ex-item"><span class="ex-slug">mental_rehearsal</span><span class="ex-desc">visualize a specific upcoming moment</span></li>
+<li class="ex-item"><span class="ex-slug">pressure_reframe</span><span class="ex-desc">pressure as privilege — I get to, not I have to</span></li>
+<li class="ex-item"><span class="ex-slug">language_audit</span><span class="ex-desc">replace fear language with excellence language</span></li>
+</ul>
+</div>
+
+</section>
+
+<section>
+<h2>How storage works</h2>
+<p>Entries live in <code>~/.agni/</code> as encrypted <code>.jrnl</code> files. The encryption key is auto-generated on first run and stored locally — no passphrase to forget. This protects against cloud sync exposure and casual filesystem browsing. For full protection on a stolen laptop, enable disk encryption on your machine.</p>
+<p class="dim">Run <code>agni vault sync</code> any time to export everything as plain markdown, organized by date, ready to open in Obsidian or any notes app.</p>
+</section>
+
+<section>
+<h2>Quick reference</h2>
+<div class="code"><pre>agni daily              structured 5-minute journal
+agni profile test       enneagram (10 min, do once)
+agni exercise list      browse all 19 exercises
+agni exercise run X     run a specific one
+agni streak             90-day dot grid
+agni read 2026-04-15    view a specific day
+agni vault sync         export to ~/Documents/agni-vault</pre><button class="copy-btn" onclick="copy(this, this.previousElementSibling.textContent)">copy</button></div>
+</section>
+
+<footer>
+<p>Developed by <strong>Parth Reddy</strong> · MIT License</p>
+<p style="margin-top: 8px;">
+<a href="https://github.com/parthreddy123/agni">github.com/parthreddy123/agni</a>
+</p>
+</footer>
+
+</div>
+
+<script>
+function copy(btn, text) {
+  navigator.clipboard.writeText(text).then(() => {
+    const original = btn.textContent;
+    btn.textContent = 'copied';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = original;
+      btn.classList.remove('copied');
+    }, 1500);
+  });
+}
+</script>
+
+</body>
+</html>

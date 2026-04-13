@@ -1,0 +1,42 @@
+{
+  "number": "EX",
+  "tag": "90 seconds · the pre-work activator",
+  "title": "Morning Ignition",
+  "intro": "Not every morning needs a full journal. Some mornings need a single, fast, visceral reset that takes 90 seconds and gets your state to where the work can begin. This is that. Not a substitute for the daily journal — a complement for the days when full journaling isn't happening.",
+  "quote": {
+    "text": "The first 90 seconds of your working day determine the next four hours. Spend them deliberately.",
+    "cite": ""
+  },
+  "deliverable": "A one-line statement of what you are refusing today, plus a three-word activation phrase you read aloud.",
+  "exercises": [
+    {
+      "id": "1.1",
+      "title": "The 90-Second Ignition",
+      "sub": "90 sec · do this at your desk before opening email",
+      "prompt": [
+        "Three sentences, fast, no editing:",
+        "1. The ONE thing I am doing today (not five — one): ...",
+        "2. The thing I am refusing to be pulled into today: ...",
+        "3. The three-word phrase I say to myself right now, out loud, before I open anything: ..."
+      ],
+      "guidance": [
+        {
+          "num": "01",
+          "title": "Say the phrase aloud",
+          "body": "The phrase is the ignition. It has to be said out loud, in your own voice, in the room you are in. Written phrases don't fire the state change — spoken ones do. It can feel silly the first few days. That passes."
+        },
+        {
+          "num": "02",
+          "title": "The refusal is doing real work",
+          "body": "Most lost mornings are lost to the thing you let pull you in — a Slack, a news feed, a meeting you should have declined. Naming the refusal by name in advance is 80% of resisting it in the moment. You are pre-paying the willpower."
+        },
+        {
+          "num": "03",
+          "title": "The ONE thing matters",
+          "body": "Not a list. One. If you finish it, the day is won regardless of what else happens. This single rule quietly reorders the entire day."
+        }
+      ],
+      "watch_out": "Letting this creep toward a full daily journal. If it takes more than two minutes, you are doing the wrong exercise. Save the long-form for the daily/therapy modes — this one is disciplined brevity."
+    }
+  ]
+}
