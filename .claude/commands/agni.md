@@ -27,8 +27,9 @@ Then this table:
 | MODE | WHAT IT DOES |
 |------|-------------|
 | **DAILY** | Your 5-minute journal. Three things you are grateful for, three intentions, one affirmation. Or just dump whatever is on your mind, free-form. |
-| **THERAPY** | Sit down and talk. I read your recent entries, notice patterns, and we work through what is actually there. Best for scattered, stuck, or heavy days. |
-| **EXERCISES** | Targeted single-session practices. See the list below. If none of them fit what you are going through, I will build a custom one for you. |
+| **THERAPY** | Sit down and talk. I ask what patterns YOU have noticed first, then share what I noticed. Synthesize-first by design — your brain does the work. |
+| **CHALLENGE** | An adversarial session. I pick something you wrote this week and push back. You defend it, refine it, or admit it does not hold. Uncomfortable by design — keeps your reasoning muscle from atrophying. |
+| **EXERCISES** | Targeted single-session practices. See the list below. Add `cold` for a no-warm-up version where I stay silent until you finish. If none fit, I build a custom one for you. |
 | **PROFILE** | A 36-question enneagram test. Takes 10 minutes. Once set, everything else gets sharper — prompts, therapy observations, exercise picks. |
 | **DASHBOARD** | Your streak, a 90-day dot grid showing which days you showed up, and a read of where you are. |
 | **VAULT** | Export everything as plain markdown so you can browse it in Obsidian or any notes app, organized by date. |
