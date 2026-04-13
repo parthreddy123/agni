@@ -397,6 +397,19 @@ cd agni</pre><button class="copy-btn" onclick="copy(this, 'git clone https://git
 </section>
 
 <section>
+<h2>Smart nudges</h2>
+<p>Agni knows what to ask for based on local time and what you've already done today. No global schedule, no cron jobs — it just reads your state when you talk to it.</p>
+<div class="modes">
+<div class="mode"><div class="mode-name">morning_due</div><div class="mode-desc">It's morning local time and the morning journal hasn't happened. Opens with morning mode.</div></div>
+<div class="mode"><div class="mode-name">evening_due</div><div class="mode-desc">It's evening, morning was done, evening hasn't been. Closes out the day.</div></div>
+<div class="mode"><div class="mode-name">therapy_weekend</div><div class="mode-desc">Sat/Sun and you haven't sat down for therapy in 6+ days. Opens proactively.</div></div>
+<div class="mode"><div class="mode-name">exercise_stale</div><div class="mode-desc">10+ days since any standalone exercise. Recommends one based on your enneagram type.</div></div>
+<div class="mode"><div class="mode-name">low_consistency</div><div class="mode-desc">2 or fewer entries in the last 7 days. Names the drift gently.</div></div>
+<div class="mode"><div class="mode-name">daily_due</div><div class="mode-desc">It's evening and nothing has been logged. Suggests a quick recovery — half is better than nothing.</div></div>
+</div>
+</section>
+
+<section>
 <h2>How storage works</h2>
 <p>Entries live in <code>~/.agni/</code> as encrypted <code>.jrnl</code> files. The encryption key is auto-generated on first run and stored locally — no passphrase to forget. This protects against cloud sync exposure and casual filesystem browsing. For full protection on a stolen laptop, enable disk encryption on your machine.</p>
 <p class="dim">Run <code>agni vault sync</code> any time to export everything as plain markdown, organized by date, ready to open in Obsidian or any notes app.</p>

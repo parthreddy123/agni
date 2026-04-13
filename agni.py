@@ -1640,7 +1640,24 @@ def cmd_state(args):
             last_ther_date = datetime.fromisoformat(last_therapy).date()
         except Exception:
             pass
-    nudges = _compute_nudges(entries, last_ther_date, last_exercise_date)
+
+    today_blocks = set()
+    today_path = DAILY_DIR / f"{date.today().isoformat()}.jrnl"
+    if today_path.exists():
+        try:
+            cached = _load_cached_key()
+            if cached:
+                td = _decrypt(today_path.read_bytes(), cached)
+                if td.get("morning"):
+                    today_blocks.add("morning")
+                if td.get("evening"):
+                    today_blocks.add("evening")
+                if td.get("freeform"):
+                    today_blocks.add("freeform")
+        except Exception:
+            pass
+
+    nudges = _compute_nudges(entries, last_ther_date, last_exercise_date, today_blocks)
 
     profile_info = None
     cached = _load_cached_key()
@@ -1750,13 +1767,23 @@ DYNAMIC_START = "<!-- AGNI:DYNAMIC:BEGIN -->"
 DYNAMIC_END = "<!-- AGNI:DYNAMIC:END -->"
 
 
-def _compute_nudges(entries_set, last_therapy, last_exercise_date):
+def _compute_nudges(entries_set, last_therapy, last_exercise_date, today_blocks=None):
     nudges = []
     today = date.today()
     weekday = today.weekday()  # 0=Mon, 6=Sun
+    hour = datetime.now().hour
+    today_blocks = today_blocks or set()
+    has_morning = "morning" in today_blocks
+    has_evening = "evening" in today_blocks
 
-    if today not in entries_set:
-        nudges.append(("daily_due", "They haven't journaled today. Offer daily mode first."))
+    if hour < 12 and not has_morning:
+        nudges.append(("morning_due", "It is morning local time and they have not done the morning 5-minute journal yet. Open with morning mode."))
+    elif hour >= 18 and has_morning and not has_evening:
+        nudges.append(("evening_due", "It is evening local time, they did the morning journal but have not closed out with the evening check-in. Offer evening mode."))
+    elif hour >= 18 and not has_morning and not has_evening:
+        nudges.append(("daily_due", "It is evening and nothing has been logged today at all. Offer the evening journal as a quick recovery — better to do half than nothing."))
+    elif 12 <= hour < 18 and not has_morning:
+        nudges.append(("morning_due", "Past noon and the morning journal still has not happened. Offer it gently — late is better than never."))
 
     therapy_stale = (last_therapy is None) or ((today - last_therapy).days >= 6)
     is_weekend = weekday in (5, 6)
@@ -1825,7 +1852,21 @@ def _update_claude_context():
                     pass
                 exercise_lines.append(f"  - `{slug_dir.name}` — last run {last_date_str} · {len(files)} total")
 
-    nudges = _compute_nudges(entries, last_therapy, last_exercise_date)
+    today_blocks = set()
+    today_path = DAILY_DIR / f"{date.today().isoformat()}.jrnl"
+    if today_path.exists() and cached_key:
+        try:
+            td = _decrypt(today_path.read_bytes(), cached_key)
+            if td.get("morning"):
+                today_blocks.add("morning")
+            if td.get("evening"):
+                today_blocks.add("evening")
+            if td.get("freeform"):
+                today_blocks.add("freeform")
+        except Exception:
+            pass
+
+    nudges = _compute_nudges(entries, last_therapy, last_exercise_date, today_blocks)
 
     today = date.today()
     weekday_name = today.strftime("%A")

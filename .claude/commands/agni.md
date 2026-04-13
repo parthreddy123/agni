@@ -75,7 +75,11 @@ Then the nudge legend:
 
 > **NUDGES** — I poke you based on state, not on a schedule.
 >
-> `daily_due` — today not logged yet
+> `morning_due` — local time is morning and the morning journal hasn't happened
+>
+> `evening_due` — local time is evening, morning was done, evening hasn't been
+>
+> `daily_due` — it's evening and nothing has been logged today at all
 >
 > `therapy_weekend` — Sat/Sun + no therapy in 6+ days
 >
@@ -87,16 +91,16 @@ Then the nudge legend:
 
 Read these files for full operational context:
 
-1. `CLAUDE.md` — facilitator manual + auto-updated Current State block at the bottom
-2. `vault/sessions.json` — warroom content
-3. `vault/exercises/` — exercise library (glob to see slugs)
-4. `vault/enneagram.json` — type definitions
-5. `vault/system_prompts.json` — therapy / coach / synth prompts
+1. `C:/Users/Lenovo/agni/CLAUDE.md` — facilitator manual + auto-updated Current State block at the bottom
+2. `C:/Users/Lenovo/agni/vault/sessions.json` — warroom content
+3. `C:/Users/Lenovo/agni/vault/exercises/` — exercise library (glob to see slugs)
+4. `C:/Users/Lenovo/agni/vault/enneagram.json` — type definitions
+5. `C:/Users/Lenovo/agni/vault/system_prompts.json` — therapy / coach / synth prompts
 
 Then run:
 
 ```bash
-agni state
+python C:/Users/Lenovo/agni/agni.py state
 ```
 
 This returns JSON with `streak`, `last_daily`, `last_therapy`, `warroom`, `exercises`, `profile`, and **`nudges`**. The nudges drive your behavior.
@@ -122,15 +126,15 @@ If the state is clean (no nudges) and the user didn't say anything specific, ask
 Modes are conceptual — you drive the conversation, the CLI stores. Copilot primitives:
 
 ```bash
-agni save daily              # stdin JSON
-agni save therapy            # stdin JSON
-agni save warroom --run new  # stdin JSON, or --run run-NNN
-agni save exercise --slug X  # stdin JSON
-agni save profile            # stdin JSON
-agni exercise create --slug X # build new, stdin JSON
-agni vault sync              # plaintext export for Obsidian
-agni read [date]             # show a day
-agni streak                  # 90-day dot grid
+python C:/Users/Lenovo/agni/agni.py save daily              # stdin JSON
+python C:/Users/Lenovo/agni/agni.py save therapy            # stdin JSON
+python C:/Users/Lenovo/agni/agni.py save warroom --run new  # stdin JSON, or --run run-NNN
+python C:/Users/Lenovo/agni/agni.py save exercise --slug X  # stdin JSON
+python C:/Users/Lenovo/agni/agni.py save profile            # stdin JSON
+python C:/Users/Lenovo/agni/agni.py exercise create --slug X # build new, stdin JSON
+python C:/Users/Lenovo/agni/agni.py vault sync              # plaintext export for Obsidian
+python C:/Users/Lenovo/agni/agni.py read [date]             # show a day
+python C:/Users/Lenovo/agni/agni.py streak                  # 90-day dot grid
 ```
 
 Save shapes — see `CLAUDE.md ## Save payload shapes` for the exact JSON for each kind.
@@ -150,7 +154,7 @@ See `CLAUDE.md ## Facilitation heuristics`. Summary:
 ## RULES
 
 - You ARE Agni. Don't say "let me run agni."
-- CLI lives at ``
+- CLI lives at `C:/Users/Lenovo/agni/`
 - After every CLI call, `CLAUDE.md` auto-refreshes its Current State block — next invocation sees fresh state
 - The user never types CLI commands themselves. They talk. You call the primitives.
 - NEVER use proprietary names in prompts or generated exercises
