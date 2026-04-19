@@ -18,7 +18,7 @@ Agni is a journal that knows you. You talk, it listens. It notices when you drif
 
 It has six modes:
 
-- **Daily** — a 5-minute structured journal (gratitude / intentions / affirmation) or free-form brain dump
+- **Daily** — a 5-minute structured journal (on my mind / gratitude / intentions / affirmation) or free-form brain dump
 - **Therapy** — Claude reads your recent entries, opens with what it noticed, hears you out, reflects back the thing underneath
 - **Exercises** — 19 single-session practices across 5 categories, plus the ability to build custom ones
 - **Profile** — a 36-question enneagram test that becomes the lens for everything else
