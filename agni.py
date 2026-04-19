@@ -383,6 +383,9 @@ def _load_recent_context(key, days=21, max_entries=20):
                 m = entry.get("morning", {})
                 e = entry.get("evening", {})
                 bits = [f"## Daily · {p.stem}"]
+                if m.get("on_my_mind"):
+                    omm = m["on_my_mind"]
+                    bits.append("on my mind: " + (omm[0] if isinstance(omm, list) else omm))
                 if m.get("gratitude"):
                     bits.append("grateful: " + " / ".join(m["gratitude"]))
                 if m.get("intentions"):
@@ -810,6 +813,15 @@ def _render_daily(path: Path, key: bytes):
     if m:
         print(f"  {AB}{B}MORNING{R}")
         print()
+        if m.get("on_my_mind"):
+            print(f"  {A}on my mind{R}")
+            omm = m["on_my_mind"]
+            if isinstance(omm, list):
+                for item in omm:
+                    print(f"    {A}▸{R} {AW}{item}{R}")
+            else:
+                print(f"    {A}▸{R} {AW}{omm}{R}")
+            print()
         if m.get("gratitude"):
             print(f"  {A}grateful for{R}")
             for item in m["gratitude"]:
@@ -1167,6 +1179,15 @@ def _daily_to_md(stem, d):
     e = d.get("evening", {})
     if m:
         out.append("## Morning\n")
+        if m.get("on_my_mind"):
+            out.append("### On my mind")
+            omm = m["on_my_mind"]
+            if isinstance(omm, list):
+                for i in omm:
+                    out.append(f"- {i}")
+            else:
+                out.append(f"- {omm}")
+            out.append("")
         if m.get("gratitude"):
             out.append("### Grateful for")
             for i in m["gratitude"]:

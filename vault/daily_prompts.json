@@ -1,6 +1,12 @@
 {
   "morning": [
     {
+      "key": "on_my_mind",
+      "label": "What's on your mind right now?",
+      "hint": "No filter. Whatever is sitting at the top. Get it out before you start.",
+      "count": 1
+    },
+    {
       "key": "gratitude",
       "label": "Three things I'm grateful for",
       "hint": "Concrete. A moment, a person, a texture — not an abstraction.",
