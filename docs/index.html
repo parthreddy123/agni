@@ -266,13 +266,15 @@ footer a:hover { color: var(--amber-bright); }
 <p class="sublede">You talk, it listens. It notices when you drift, nudges you on the days you need it, and helps you go deeper when something is stuck. Encrypted on your laptop. No accounts, no cloud, no passwords to lose.</p>
 
 <section>
-<h2>Install (3 steps)</h2>
+<h2>Install (4 steps)</h2>
+
+<p class="dim" style="margin-bottom: 24px;">Agni is designed as a <strong>Claude Code copilot</strong>. The CLI is the storage layer; Claude drives the conversation. You need <code>git</code>, <code>python 3.10+</code>, and <a href="https://claude.com/claude-code" style="color: var(--amber);">Claude Code</a>.</p>
 
 <div class="install-step">
 <div class="step-num">1</div>
 <div class="step-body">
 <h3>Clone the repo</h3>
-<p>Copy this and paste it into your terminal. You need <code>git</code> and <code>python 3.10+</code>.</p>
+<p>Copy this and paste it into your terminal.</p>
 <div class="code"><pre>git clone https://github.com/parthreddy123/agni.git
 cd agni</pre><button class="copy-btn" onclick="copy(this, 'git clone https://github.com/parthreddy123/agni.git\ncd agni')">copy</button></div>
 </div>
@@ -291,13 +293,21 @@ cd agni</pre><button class="copy-btn" onclick="copy(this, 'git clone https://git
 <div class="step-num">3</div>
 <div class="step-body">
 <h3>Initialize</h3>
-<p>Generates a local encryption key. No passphrase to remember. Done.</p>
+<p>Generates a local encryption key. No passphrase to remember.</p>
 <div class="code"><pre>agni init</pre><button class="copy-btn" onclick="copy(this, 'agni init')">copy</button></div>
 </div>
 </div>
 
-<p class="dim" style="margin-top: 24px;">Optional but recommended — install the <code>/agni</code> slash command for Claude Code so you can use Agni as a copilot:</p>
+<div class="install-step">
+<div class="step-num">4</div>
+<div class="step-body">
+<h3>Install the <code>/agni</code> copilot</h3>
+<p>This is the real way to use Agni. Drop the slash command into your global Claude Code commands — now in any Claude Code session, type <code>/agni</code> and Claude reads your state, picks the right mode, and drives the conversation. You just talk.</p>
 <div class="code"><pre>mkdir -p ~/.claude/commands && cp .claude/commands/agni.md ~/.claude/commands/</pre><button class="copy-btn" onclick="copy(this, 'mkdir -p ~/.claude/commands && cp .claude/commands/agni.md ~/.claude/commands/')">copy</button></div>
+</div>
+</div>
+
+<p class="dim" style="margin-top: 24px;">Prefer the raw CLI? The <code>agni</code> subcommands (<code>agni daily</code>, <code>agni therapy</code>, <code>agni exercise run</code>) work standalone — skip step 4. But copilot mode is where Agni comes alive.</p>
 
 </section>
 

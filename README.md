@@ -27,16 +27,27 @@ It has six modes:
 
 ## Install
 
+Agni is designed as a **Claude Code copilot**. The CLI is the encrypted storage layer; Claude drives the conversation.
+
 ```bash
-git clone https://github.com/yourname/agni.git
+# 1. Clone + install
+git clone https://github.com/parthreddy123/agni.git
 cd agni
 pip install -e .
+
+# 2. Initialize local encryption
 agni init
+
+# 3. Install the /agni copilot (this is the default experience)
+mkdir -p ~/.claude/commands
+cp .claude/commands/agni.md ~/.claude/commands/
 ```
 
-That's it. `agni init` generates a local encryption key (no passphrase to remember) and creates the journal directory at `~/.agni/`.
+Now in any Claude Code session, type `/agni`. Claude reads your state, picks the right mode, and drives the conversation. You just talk.
 
-## Use it
+## Prefer the raw CLI?
+
+The subcommands work standalone — skip step 3 above:
 
 ```bash
 agni daily              # 5-minute structured journal
@@ -46,14 +57,7 @@ agni read 2026-04-15    # show a specific day
 agni vault sync         # export to ~/Documents/agni-vault for Obsidian
 ```
 
-But the real way to use agni is through Claude Code. Drop the slash command into your global commands and use `/agni`:
-
-```bash
-mkdir -p ~/.claude/commands
-cp .claude/commands/agni.md ~/.claude/commands/
-```
-
-Now in any Claude Code session, type `/agni`. Claude reads your state, picks the right mode, and drives the conversation. You just talk.
+But copilot mode is where Agni comes alive.
 
 ## The exercise library
 
@@ -114,9 +118,9 @@ Open the folder in Obsidian (recommended — Daily Notes plugin gives you a cale
 
 The exported folder is plaintext — wipe it with `agni vault clean` when you're done.
 
-## With Claude Code (the real experience)
+## How copilot mode works
 
-The CLI works on its own, but the intended experience is through Claude Code. With the `/agni` slash command installed:
+With the `/agni` slash command installed:
 
 - Type `/agni` and Claude opens with a banner, reads your state, and picks a mode based on what's needed
 - On weekends, if you haven't done therapy in a while, Claude opens proactively with a check-in
