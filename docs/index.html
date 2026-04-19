@@ -312,6 +312,15 @@ cd agni</pre><button class="copy-btn" onclick="copy(this, 'git clone https://git
 </section>
 
 <section>
+<h2>Don't trust me — audit the code</h2>
+<p>You're about to give this tool your private thoughts. You should not take my word that it's safe. Run the audit command below and Claude will systematically check the codebase for network calls, data leaks, encryption issues, and anything else that would compromise your privacy. It will give you a plain-English verdict — trust, trust with caveats, or do not trust.</p>
+<div class="code"><pre>mkdir -p ~/.claude/commands && cp .claude/commands/agni-audit.md ~/.claude/commands/</pre><button class="copy-btn" onclick="copy(this, 'mkdir -p ~/.claude/commands && cp .claude/commands/agni-audit.md ~/.claude/commands/')">copy</button></div>
+<p class="dim" style="margin-top: 12px;">Then in any Claude Code session inside the <code>agni/</code> directory, run:</p>
+<div class="code"><pre>/agni-audit</pre><button class="copy-btn" onclick="copy(this, '/agni-audit')">copy</button></div>
+<p class="dim" style="margin-top: 12px;">Claude will run six checks: network calls, where journal data gets written, the encryption implementation, what gets sent to the Anthropic API, the dependency tree, and whether entry content leaks into the visible context block. Takes about a minute. Do it before your first <code>/agni</code>.</p>
+</section>
+
+<section>
 <h2>What you get — six modes</h2>
 <div class="modes">
 
